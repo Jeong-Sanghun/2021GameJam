@@ -61,11 +61,19 @@ public class BugCatchManager : MonoBehaviour
         {
             return;
         }
-        HitBug(appearedBugList[leastIndex]);
+        if(leastMagnitude < 2)
+        {
+            HitBug(appearedBugList[leastIndex]);
+        }
+
     }
 
     void OnCatchEvent(PointerEventData data, BugIngameClass bug)
     {
+        if(bug.sitted==false && bug.name == BugName.Mosquito)
+        {
+            return;
+        }
         HitBug(bug);
     }
 

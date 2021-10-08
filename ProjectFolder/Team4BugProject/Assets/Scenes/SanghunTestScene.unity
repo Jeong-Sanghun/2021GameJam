@@ -985,6 +985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afec237d61e8b6a40b7595a676feffbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bugMoveManager: {fileID: 613255789}
   bugCatchManager: {fileID: 1338307079}
   bugPrefab:
   - {fileID: 633930502926098526, guid: 2a58e59b017d6e346ba7daa4587a212e, type: 3}

@@ -10,6 +10,8 @@ public class BugIngameClass
     public GameObject bugObject;
     public Vector3 position;
     public int nowHp;
+    [System.NonSerialized]
+    public bool sitted;
 
     public void SetBugPrefab(GameObject prefab,GameObject parent)
     {
@@ -22,6 +24,7 @@ public class BugIngameClass
         name = BugName.Fly;
         bugObject = null;
         position = Vector3.zero;
+        sitted = false;
     }
 
     public BugIngameClass(BugClass bug, GameObject prefab, GameObject parent,Vector3 pos)
@@ -30,6 +33,7 @@ public class BugIngameClass
         nowHp = bug.hp;
         SetBugPrefab(prefab, parent);
         position = pos;
+        sitted = false;
 
     }
 }

@@ -10,6 +10,8 @@ public class BugSpawnManager : MonoBehaviour
     SaveDataClass saveData;
     List<BugIngameClass> appearedBugList;
     [SerializeField]
+    BugMoveManager bugMoveManager;
+    [SerializeField]
     BugCatchManager bugCatchManager;
 
     [SerializeField]
@@ -100,6 +102,7 @@ public class BugSpawnManager : MonoBehaviour
             BugIngameClass bug = new BugIngameClass(bugClass, bugPrefab[(int)name], bugParent, randomPos);
             appearedBugList.Add(bug);
             bugCatchManager.SetEventTrigger(bug);
+            bugMoveManager.MoveBug(bug);
         }
 
 
