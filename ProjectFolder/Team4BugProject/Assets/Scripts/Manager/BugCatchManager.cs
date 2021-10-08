@@ -19,7 +19,7 @@ public class BugCatchManager : MonoBehaviour
         
     }
 
-    public void On
+    //public void On
 
     // Update is called once per frame
     void Update()
