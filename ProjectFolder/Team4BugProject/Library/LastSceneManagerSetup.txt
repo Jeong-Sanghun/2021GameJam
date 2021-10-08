@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/DyneTestScene.unity
+- path: Assets/Scenes/SiwonScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

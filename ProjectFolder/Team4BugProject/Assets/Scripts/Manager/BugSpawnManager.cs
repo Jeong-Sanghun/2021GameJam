@@ -85,6 +85,8 @@ public class BugSpawnManager : MonoBehaviour
             //{
             //    continue;
             //}
+
+            //여기가 확률임.
             if (Random.Range(0f, 1f) > 0.5f)
             {
                 continue;

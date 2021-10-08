@@ -37,6 +37,22 @@ public class BugMoveManager : MonoBehaviour
             
             originPos =rect.anchoredPosition;
             randomDeltaPos =originPos+ new Vector3(Random.Range(-100f, 100f), Random.Range(-100f, 100f), 0);
+            if(randomDeltaPos.x > 1280)
+            {
+                randomDeltaPos.x = 1280;
+            }
+            if(randomDeltaPos.x < -1280)
+            {
+                randomDeltaPos.x = -1280;
+            }
+            if (randomDeltaPos.y > 720)
+            {
+                randomDeltaPos.y = 720;
+            }
+            if (randomDeltaPos.y < -720)
+            {
+                randomDeltaPos.y = -720;
+            }
             float timer = 0;
             while (bug.bugObject.activeSelf == true)
             {
@@ -63,6 +79,22 @@ public class BugMoveManager : MonoBehaviour
             
             originPos = bug.bugObject.transform.position;
             randomDeltaPos = originPos + new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f), 0);
+            if (randomDeltaPos.x > 8.9f)
+            {
+                randomDeltaPos.x = 8.9f;
+            }
+            if (randomDeltaPos.x < -8.9f)
+            {
+                randomDeltaPos.x = -8.9f;
+            }
+            if (randomDeltaPos.y > 4.9f)
+            {
+                randomDeltaPos.y = 4.9f;
+            }
+            if (randomDeltaPos.y < -4.9f)
+            {
+                randomDeltaPos.y =-4.9f;
+            }
             float timer = 0;
             while (bug.bugObject.activeSelf == true)
             {

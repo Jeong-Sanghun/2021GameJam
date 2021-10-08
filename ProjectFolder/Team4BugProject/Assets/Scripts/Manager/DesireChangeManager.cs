@@ -1,11 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DesireChangeManager : MonoBehaviour
 {
     GameManager gameManager;
     SaveDataClass saveData;
+    [SerializeField]
+    ButtonManager buttonManager;
+
+    [SerializeField]
+    GameObject windowGaugeObject;
+    [SerializeField]
+    Text windowGaugeText;
+    [SerializeField]
+    Image windowGaugeImage;
+
+    [SerializeField]
+    GameObject hungrinessGaugeObject;
+    [SerializeField]
+    Text hungrinessGaugeText;
+    [SerializeField]
+    Image hungrinessGaugeImage;
+
+    [SerializeField]
+    GameObject toiletGaugeObject;
+    [SerializeField]
+    Text toiletGaugeText;
+    [SerializeField]
+    Image toiletGaugeImage;
+
+    [SerializeField]
+    GameObject recycleBinGaugeObject;
+    [SerializeField]
+    Image recycleBinGaugeImage;
+
 
     /////
     IEnumerator cor;
@@ -25,6 +55,7 @@ public class DesireChangeManager : MonoBehaviour
         StartCoroutine(cor);
         StartCoroutine(DecreaseHungriness());
         StartCoroutine(DecreaseToileting());
+        
     }
 
     //////////////////////////
@@ -37,7 +68,30 @@ public class DesireChangeManager : MonoBehaviour
         else {
             saveData.isWindowOpen = true;
         }
-        Invoke("WindowStateChanged", i);
+        StartCoroutine(WindowStateChangeCoroutine(saveData.isWindowOpen));
+    }
+
+    IEnumerator WindowStateChangeCoroutine(bool isOpening)
+    {
+        windowGaugeObject.SetActive(true);
+        if (isOpening)
+        {
+            windowGaugeText.text = "문 여는중";
+        }
+        else
+        {
+            windowGaugeText.text = "문 닫는중";
+        }
+        float timer = 0;
+        while (timer < 1)
+        {
+            timer += Time.deltaTime;
+            windowGaugeImage.fillAmount = timer;
+            yield return null;
+        }
+        windowGaugeObject.SetActive(false);
+        buttonManager.OnInteractionReturn();
+        WindowStateChanged();
     }
 
     void WindowStateChanged()
@@ -73,9 +127,43 @@ public class DesireChangeManager : MonoBehaviour
 
     ////////////////////////////////
 
-    public void HungrinessInteraction()
+    public void HungrinessInteraction(bool isCleaning)
     {
-        StartCoroutine(IncreaseHungriness());
+        StartCoroutine(HungrinessGaugeCoroutine(isCleaning));
+    }
+
+    IEnumerator HungrinessGaugeCoroutine(bool isCleaning)
+    {
+        hungrinessGaugeObject.SetActive(true);
+        if (isCleaning)
+        {
+            hungrinessGaugeText.text = "청소하는중";
+        }
+        else
+        {
+           hungrinessGaugeText.text = "밥먹는중";
+        }
+        float timer = 0;
+        while (timer < 1)
+        {
+            timer += Time.deltaTime;
+            hungrinessGaugeImage.fillAmount = timer;
+            yield return null;
+        }
+       hungrinessGaugeObject.SetActive(false);
+        buttonManager.OnInteractionReturn();
+        if (isCleaning)
+        {
+            saveData.placeCleannessNumber[(int)PlaceName.Kitchen] -= 10;
+            if (saveData.placeCleannessNumber[(int)PlaceName.Kitchen] < 0)
+            {
+                saveData.placeCleannessNumber[(int)PlaceName.Kitchen] = 0;
+            }
+        }
+        else
+        {
+            StartCoroutine(IncreaseHungriness());
+        }
     }
 
     IEnumerator IncreaseHungriness() //시간 k동안 값이 N만큼 증가
@@ -83,6 +171,7 @@ public class DesireChangeManager : MonoBehaviour
         float time = 0f;
         while(time < k) {
             saveData.desireNumber[(int)DesireName.Hungriness] += Time.deltaTime / k * (N+(int)k);
+            saveData.placeCleannessNumber[(int)PlaceName.Kitchen] += Time.deltaTime / k * (N + (int)k);
             //Debug.Log("hungriness : " + saveData.desireNumber[(int)DesireName.Hungriness]); /////
             yield return null;
             time += Time.deltaTime;
@@ -100,9 +189,43 @@ public class DesireChangeManager : MonoBehaviour
 
     ///////////////////////////////////
 
-    public void ToiletingInteraction()
+    public void ToiletingInteraction(bool isCleaning)
     {
-        StartCoroutine(IncreaseToileting());
+        StartCoroutine(ToiletingGaugeCoroutine(isCleaning));
+    }
+
+    IEnumerator ToiletingGaugeCoroutine(bool isCleaning)
+    {
+        toiletGaugeObject.SetActive(true);
+        if (isCleaning)
+        {
+            toiletGaugeText.text = "청소하는중";
+        }
+        else
+        {
+            toiletGaugeText.text = "똥닦는중";
+        }
+        float timer = 0;
+        while (timer < 1)
+        {
+            timer += Time.deltaTime;
+            toiletGaugeImage.fillAmount = timer;
+            yield return null;
+        }
+        toiletGaugeObject.SetActive(false);
+        buttonManager.OnInteractionReturn();
+        if (isCleaning)
+        {
+            saveData.placeCleannessNumber[(int)PlaceName.RestRoom] -= 10;
+            if (saveData.placeCleannessNumber[(int)PlaceName.RestRoom] < 0)
+            {
+                saveData.placeCleannessNumber[(int)PlaceName.RestRoom] = 0;
+            }
+        }
+        else
+        {
+            StartCoroutine(IncreaseToileting());
+        }
     }
 
     IEnumerator IncreaseToileting() //시간 k동안 값이 N만큼 증가
@@ -110,6 +233,7 @@ public class DesireChangeManager : MonoBehaviour
         float time = 0f;
         while(time < k) {
             saveData.desireNumber[(int)DesireName.Toileting] += Time.deltaTime / k * (N+(int)k);
+            saveData.placeCleannessNumber[(int)PlaceName.RestRoom] += Time.deltaTime / k * (N + (int)k);
             //Debug.Log(saveData.desireNumber[(int)DesireName.Toileting]); /////
             yield return null;
             time += Time.deltaTime;
@@ -125,4 +249,31 @@ public class DesireChangeManager : MonoBehaviour
             yield return new WaitForSeconds(M);
         }
     }
+
+    /////////////////////////////////////////
+    
+    public void CleanRecycleBin()
+    {
+        StartCoroutine(RecycleBinCleanCoroutine());
+    }
+
+    IEnumerator RecycleBinCleanCoroutine()
+    {
+        recycleBinGaugeObject.SetActive(true);
+        float timer = 0;
+        while (timer < 1)
+        {
+            timer += Time.deltaTime;
+            recycleBinGaugeImage.fillAmount = timer;
+            yield return null;
+        }
+        recycleBinGaugeObject.SetActive(false);
+        buttonManager.OnInteractionReturn();
+        saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] -= 10;
+        if (saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] < 0)
+        {
+            saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] = 0;
+        }
+    }
+
 }
