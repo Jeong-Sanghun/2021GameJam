@@ -10,7 +10,7 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointer
 
     private float deadZone = 0;
     private float handleRange = 1;
-    private Vector3 input = Vector3.zero;
+    private Vector2 input = Vector2.zero;
     private Canvas canvas;
 
     public float Horizontal { get { return input.x; } }
@@ -24,13 +24,16 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointer
 
     public void OnPointerDown(PointerEventData eventData)
     {
+
         OnDrag(eventData);
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         Vector2 radius = outLine.sizeDelta / 2;
-        input = (eventData.position - outLine.anchoredPosition) / (radius * canvas.scaleFactor);
+        //Debug.Log(eventData.position.x);
+        Debug.Log((eventData.position - outLine.anchoredPosition) / (radius * canvas.scaleFactor));
+        input = new Vector2((eventData.position - outLine.anchoredPosition).x / (radius * canvas.scaleFactor).x - 6.3f, (eventData.position - outLine.anchoredPosition).y / (radius * canvas.scaleFactor).y - 3.6f);
         HandleInput(input.magnitude, input.normalized);
         handle.anchoredPosition = input * radius * handleRange;
     }
