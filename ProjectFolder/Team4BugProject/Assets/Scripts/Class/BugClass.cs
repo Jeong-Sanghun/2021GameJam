@@ -2,22 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum BugName
+{
+    Mosquito, Roach, Fly, MossFly
+}
+[System.Serializable]
 public class BugClass
 {
-    int bugType; //0,1,2,3 or str??
-    int hp; //or float
+    public BugName name; //0,1,2,3 or str??
+    public int hp ; //or float
+    public bool isOnScreen;
+    //화면위에 생기면 true
 
 
-
-    // Start is called before the first frame update
-    void Start()
+    public BugClass()
     {
-        
+        name = BugName.Fly;
+        hp = 10;
+        isOnScreen = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+
 }
