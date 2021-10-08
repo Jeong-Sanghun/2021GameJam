@@ -1,272 +1,666 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19041.1237; Version 2004; 64bit' Language: 'ko' Physical Memory: 8109 MB
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'ko' Physical Memory: 16167 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\UnityEditor\2020.3.0f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/GithubDesktop/2021GameJam/ProjectFolder/Team4BugProject
+D:/학습자료/홍익대학교(2019~)/ExP/21_2_게임잼/2021GameJam/ProjectFolder/Team4BugProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58770
-Successfully changed project path to: C:/GithubDesktop/2021GameJam/ProjectFolder/Team4BugProject
-C:/GithubDesktop/2021GameJam/ProjectFolder/Team4BugProject
+59924
+Successfully changed project path to: D:/학습자료/홍익대학교(2019~)/ExP/21_2_게임잼/2021GameJam/ProjectFolder/Team4BugProject
+D:/학습자료/홍익대학교(2019~)/ExP/21_2_게임잼/2021GameJam/ProjectFolder/Team4BugProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 28.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path C:/UnityEditor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/GithubDesktop/2021GameJam/ProjectFolder/Team4BugProject/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/학습자료/홍익대학교(2019~)/ExP/21_2_게임잼/2021GameJam/ProjectFolder/Team4BugProject/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Renderer: NVIDIA GeForce MX450 (ID=0x1f98)
     Vendor:   
-    VRAM:     1979 MB
-    Driver:   24.21.13.9901
+    VRAM:     1928 MB
+    Driver:   27.21.14.6143
 Initialize mono
-Mono path[0] = 'C:/UnityEditor/2020.3.0f1/Editor/Data/Managed'
-Mono path[1] = 'C:/UnityEditor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/UnityEditor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/UnityEditor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004819 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001495 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 28.19 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.249 seconds
+- Completed reload, in  0.779 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002047 seconds.
+Registered in 0.000644 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000260F2CF0C40 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDBE87D0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDAAD2A0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2FFA040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F22B1050 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED5C9C10 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2E90020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED3D8020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2EA3430 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2D24E50 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2416020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2443A30 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDAAD2A0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2443A30 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED3D8020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED0C1030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2BBDBF0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2BE9800 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2BE9800 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDBA1640 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1752010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDAAD2A0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDBA1640 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F24A8040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED2994E0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1D58020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2B8D9F0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED123D60 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED59CFC0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDAAD2A0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED0F9420 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.27 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 29.46 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.503 seconds
+- Completed reload, in  0.698 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.1 MB.
-System memory in use after: 87.1 MB.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.2 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2248.
-Total: 2.495400 ms (FindLiveObjects: 0.371100 ms CreateObjectMapping: 0.122200 ms MarkObjects: 1.836700 ms  DeleteObjects: 0.164100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts
-  artifactKey: Guid(c01a7c492f19e1d488f4787211ed6a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(c01a7c492f19e1d488f4787211ed6a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a347f822e6b8ad9dc9d0279bb2297cb0') in 0.018354 seconds
-  Import took 0.022366 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 1.807000 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.056900 ms MarkObjects: 1.372100 ms  DeleteObjects: 0.131000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.444231 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(3a38e21f7c231a94db7e64863969ae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(3a38e21f7c231a94db7e64863969ae02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a52019dbb54cc9a17dad03724c1bf3') in 0.064455 seconds
+  Import took 0.067030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.202095 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(fe32ad5b6de716042822748c6f6530b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(fe32ad5b6de716042822748c6f6530b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2629b804b42fe07296c6f04a59674e92') in 0.033542 seconds
+  Import took 0.036435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.708934 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(fe32ad5b6de716042822748c6f6530b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(fe32ad5b6de716042822748c6f6530b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5321e7cb07aa0b1c3ab1b042ea1db08f') in 0.032274 seconds
+  Import took 0.035112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.430930 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(12097ed7a831ef84d902b5fc7c32d98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(12097ed7a831ef84d902b5fc7c32d98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1b51dba8ca5685271d2ee3d0c89cf4') in 0.030174 seconds
+  Import took 0.033449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.053439 seconds.
+  path: Assets/Scenes/LoadingScene.unity
+  artifactKey: Guid(e90ccc1733b47464ab41a9ce3786d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoadingScene.unity using Guid(e90ccc1733b47464ab41a9ce3786d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78db275c4d79c51fbdc4823f4ec6442c') in 0.028463 seconds
+  Import took 0.031007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.382865 seconds.
   path: Assets/Scripts/Class
   artifactKey: Guid(9e6e91c65514cb9499afd59de26c3fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Class using Guid(9e6e91c65514cb9499afd59de26c3fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43cc2e0baf1ec90c45b623a7d68d200') in 0.014389 seconds
-  Import took 0.018491 seconds .
+Start importing Assets/Scripts/Class using Guid(9e6e91c65514cb9499afd59de26c3fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f76bfa2818fcf9f792f5bc6da1ea76') in 0.026061 seconds
+  Import took 0.028716 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.864456 seconds.
-  path: Assets/Scripts/Manager
-  artifactKey: Guid(4915fbd35ab80ef47a61b88b8b55d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager using Guid(4915fbd35ab80ef47a61b88b8b55d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b07615d8972a721bc3336b3a5905aca') in 0.018834 seconds
-  Import took 0.024924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.827538 seconds.
-  path: Assets/Scripts/Manager/JsonManager.cs
-  artifactKey: Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager/JsonManager.cs using Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4e92479952b2a5afa756a80cd74578') in 0.074595 seconds
-  Import took 0.078949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.635938 seconds.
-  path: Assets/Scripts/Manager/JsonManager.cs
-  artifactKey: Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager/JsonManager.cs using Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4e92479952b2a5afa756a80cd74578') in 0.005918 seconds
-  Import took 0.010071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.144621 seconds.
-  path: Assets/Scripts/Manager/JsonManager.cs
-  artifactKey: Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager/JsonManager.cs using Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e2672b99f1fdc1d305104a80b39d08') in 0.009869 seconds
-  Import took 0.020750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.754052 seconds.
-  path: Assets/Scripts/Class/SaveDataClass.cs
-  artifactKey: Guid(35f3bb5a23a4a644aadcc61b88e227a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Class/SaveDataClass.cs using Guid(35f3bb5a23a4a644aadcc61b88e227a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85488e047b887b544ce4a9c0c912cdc2') in 0.331453 seconds
-  Import took 0.656896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.671211 seconds.
-  path: Assets/Scripts/Class/SaveDataClass.cs
-  artifactKey: Guid(35f3bb5a23a4a644aadcc61b88e227a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Class/SaveDataClass.cs using Guid(35f3bb5a23a4a644aadcc61b88e227a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bf243a1477d42dba48aa61022524a4') in 0.040217 seconds
-  Import took 0.050335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091928 seconds.
-  path: Assets/Scripts/Class/SaveDataClass.cs
-  artifactKey: Guid(35f3bb5a23a4a644aadcc61b88e227a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Class/SaveDataClass.cs using Guid(35f3bb5a23a4a644aadcc61b88e227a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bf243a1477d42dba48aa61022524a4') in 0.067921 seconds
-  Import took 0.119568 seconds .
+  Time since last request: 6.401873 seconds.
+  path: Assets/Scripts/Class/BugClass.cs
+  artifactKey: Guid(9e929ecd6d033ce49b4dec297a44ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Class/BugClass.cs using Guid(9e929ecd6d033ce49b4dec297a44ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576132d4f82b7e19248bc5c8902f2da7') in 0.051514 seconds
+  Import took 0.054942 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003489 seconds.
+Registered in 0.000764 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000260ED5DA9B0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F43EC9620 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F46B6920 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3F1B180 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED21A010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4879B90 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED5DA9B0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED6A7020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED51B040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4879B90 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED0C1030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED6B8430 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4879B90 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F259C420 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3E9E020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1752010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2288030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3E9E020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2CED010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1E5F970 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1F27020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3F1B180 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED123D60 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4879B90 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2288030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1EACC30 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.608 seconds
+- Completed reload, in  0.668 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.1 MB.
-System memory in use after: 87.1 MB.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.3 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2254.
-Total: 3.701900 ms (FindLiveObjects: 1.140300 ms CreateObjectMapping: 0.180900 ms MarkObjects: 2.182900 ms  DeleteObjects: 0.194800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.133446 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(93e2e50e14d415544bf98135b5c9f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(93e2e50e14d415544bf98135b5c9f011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d97b8929fce1000b890ed1b83246610') in 0.014558 seconds
-  Import took 0.018943 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 1.704500 ms (FindLiveObjects: 0.138300 ms CreateObjectMapping: 0.052400 ms MarkObjects: 1.419100 ms  DeleteObjects: 0.094000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.882632 seconds.
-  path: Assets/Resources/JsonData
-  artifactKey: Guid(16873f42cd3db2742a3141e38007ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/JsonData using Guid(16873f42cd3db2742a3141e38007ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba761d5ce1819a63f935ae6e99a8abe') in 0.015820 seconds
-  Import took 0.019838 seconds .
+  Time since last request: 20.985141 seconds.
+  path: Assets/Scripts/Class/PlaceClass.cs
+  artifactKey: Guid(3d0609afa15b05749a8b69fe6ad5f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Class/PlaceClass.cs using Guid(3d0609afa15b05749a8b69fe6ad5f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810a6f5d4ed31a1399c8f7316721a5a8') in 0.043264 seconds
+  Import took 0.046277 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.207644 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.015027 seconds
-  Import took 0.020494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.638281 seconds.
-  path: Assets/userData
-  artifactKey: Guid(3a6896b6288d01940a42e6e91ada01cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/userData using Guid(3a6896b6288d01940a42e6e91ada01cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d69d0bc6140652330a0581630e490d6') in 0.016624 seconds
-  Import took 0.021206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 134.302177 seconds.
-  path: Assets/Scripts/Manager/JsonManager.cs
-  artifactKey: Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager/JsonManager.cs using Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b046ac71952a2ea2d0707afa0044104') in 0.014420 seconds
-  Import took 0.021833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050169 seconds.
-  path: Assets/Scripts/Manager/JsonManager.cs
-  artifactKey: Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager/JsonManager.cs using Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b046ac71952a2ea2d0707afa0044104') in 0.010558 seconds
-  Import took 0.025384 seconds .
+  Time since last request: 0.001274 seconds.
+  path: Assets/Scripts/Class/PlaceClass.cs
+  artifactKey: Guid(3d0609afa15b05749a8b69fe6ad5f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Class/PlaceClass.cs using Guid(3d0609afa15b05749a8b69fe6ad5f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810a6f5d4ed31a1399c8f7316721a5a8') in 0.016627 seconds
+  Import took 0.020396 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002874 seconds.
+Registered in 0.000982 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000260EDAF2010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F43EC6B80 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED959470 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1D991D0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2BAFBC0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4875B80 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED105F00 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4875B80 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2BAFBC0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F315E040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED6A7020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48D6C70 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1FB5030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F346B3D0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F259C420 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4AA8010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED485010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48D6C70 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3451010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED6085C0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2FF1D20 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDB7B020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48DD110 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDBC6870 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDB1FA20 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F49FF020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.338 seconds
+- Completed reload, in  0.662 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.2 MB.
-System memory in use after: 87.2 MB.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.3 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2258.
-Total: 2.522800 ms (FindLiveObjects: 0.313400 ms CreateObjectMapping: 0.124000 ms MarkObjects: 1.956800 ms  DeleteObjects: 0.127100 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 1.670700 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.387500 ms  DeleteObjects: 0.096600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 270.650939 seconds.
-  path: Assets/Scripts/Manager/JsonManager.cs
-  artifactKey: Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager/JsonManager.cs using Guid(673b903081b32914a89b5b3b6a774211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b80fdb29e746f24670d7ea69fdf4296') in 0.007071 seconds
-  Import took 0.011508 seconds .
+  Time since last request: 46.144666 seconds.
+  path: Assets/Scripts/Class/DesireClass.cs
+  artifactKey: Guid(fba11a2de3dc04849a924a55001e5aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Class/DesireClass.cs using Guid(fba11a2de3dc04849a924a55001e5aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5914f942d428c6fc51bc47a5021113ae') in 0.043756 seconds
+  Import took 0.047257 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002002 seconds.
+Registered in 0.000678 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-00000261153D00C0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F43EC9A00 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDA074B0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED1FF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2BAFBC0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3FAE010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1F57040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3FAE010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2BAFBC0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F39FA010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2233010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48D6C70 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED32B020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3434020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F434F6F0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4AA8010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1752010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48D6C70 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4AA8010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B4030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2BE7C10 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDB7B020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4D16110 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2B8B2B0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED0C1030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED223E40 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.621 seconds
+- Completed reload, in  0.654 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.2 MB.
-System memory in use after: 87.2 MB.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2262.
-Total: 2.999200 ms (FindLiveObjects: 0.577400 ms CreateObjectMapping: 0.296900 ms MarkObjects: 2.005500 ms  DeleteObjects: 0.117600 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 1.763500 ms (FindLiveObjects: 0.136000 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.469300 ms  DeleteObjects: 0.118000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000723 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000260EDAF2010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F43EC6B80 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4CD2950 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED1FF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED259020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3808030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED7AC050 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4875B80 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F36BC010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2233010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48D6C70 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED7BB1B0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F43EC05E0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2450020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3EB5030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F43EC05E0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2EA8040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4AA8010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1752010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48D6C70 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2144020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F20ED020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED82A040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4A0F370 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED4D1040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2B8B8B0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDB46010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 2.007300 ms (FindLiveObjects: 0.238300 ms CreateObjectMapping: 0.071100 ms MarkObjects: 1.589400 ms  DeleteObjects: 0.106500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.389991 seconds.
+  path: Assets/Scripts/Class/BugClass.cs
+  artifactKey: Guid(9e929ecd6d033ce49b4dec297a44ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Class/BugClass.cs using Guid(9e929ecd6d033ce49b4dec297a44ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fd81ca5b8158ac9bc622c80a824f67') in 0.029346 seconds
+  Import took 0.031986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006102 seconds.
+  path: Assets/Scripts/Class/BugClass.cs
+  artifactKey: Guid(9e929ecd6d033ce49b4dec297a44ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Class/BugClass.cs using Guid(9e929ecd6d033ce49b4dec297a44ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7fd81ca5b8158ac9bc622c80a824f67') in 0.016181 seconds
+  Import took 0.019196 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000705 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000260EDAF2010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025F43EC7340 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026115517900 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED1FF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2BAFBC0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2D28E60 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F1A73020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED7AC050 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260EDAA3030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2BAFBC0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F36BC010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2FC5010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED231950 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F26B7CA0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002611597D040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F434F6F0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F39A0030 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F22B1050 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026115A5B010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED231950 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F22B1050 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED62C020 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED82A040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260ED5DA9B0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F4D16110 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F2B8B2B0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F48CF010 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260E61FB1F0 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F3EFC040 doesn't match image D:\학습자료\홍익대학교(2019~)\ExP\21_2_게임잼\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 1.547300 ms (FindLiveObjects: 0.132300 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.277100 ms  DeleteObjects: 0.101500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.773572 seconds.
+  path: Assets/Scripts/Class/BugClass.cs
+  artifactKey: Guid(9e929ecd6d033ce49b4dec297a44ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Class/BugClass.cs using Guid(9e929ecd6d033ce49b4dec297a44ed24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16404febb6b4cf1583ab17cc5028df3') in 0.030079 seconds
+  Import took 0.032725 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
