@@ -24,7 +24,7 @@ public class SaveDataClass
 
     public SaveDataClass()
     {
-        desireNumber = new float[3];
+        desireNumber = new float[] {100, 100, 100};
         placeCleannessNumber = new float[4];
 
         

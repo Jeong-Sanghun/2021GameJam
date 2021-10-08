@@ -16,10 +16,10 @@ public class DesireChangeManager : MonoBehaviour
         gameManager = GameManager.inst;
         saveData = gameManager.saveData;
 
-        cor = IncreaseAir();
+        cor = DecreaseAir();
         StartCoroutine(cor);
-        StartCoroutine(IncreaseHungriness());
-        StartCoroutine(IncreaseToileting());
+        StartCoroutine(DecreaseHungriness());
+        StartCoroutine(DecreaseToileting());
     }
 
     public void WindowStateChanged()
@@ -27,10 +27,10 @@ public class DesireChangeManager : MonoBehaviour
         StopCoroutine(cor);
 
         if(saveData.isWindowOpen) {
-            cor = IncreaseAir();
+            cor = DecreaseAir();
         }
         else {
-            cor = DecreaseAir();
+            cor = IncreaseAir();
         }
         StartCoroutine(cor);
     }
@@ -53,31 +53,31 @@ public class DesireChangeManager : MonoBehaviour
         }
     }
 
-    public void DecreaseHungriness() //상호작용 발생시 호출
+    public void IncreaseHungriness() //상호작용 발생시 호출
     {
-        saveData.desireNumber[(int)DesireName.Hungriness] -= 10; //n값 정해지면 수정
+        saveData.desireNumber[(int)DesireName.Hungriness] += 10; //n값 정해지면 수정
         //Debug.Log(saveData.desireNumber[(int)DesireName.Hungriness]); //
     }
 
-    IEnumerator IncreaseHungriness()
+    IEnumerator DecreaseHungriness()
     {
-        while(saveData.desireNumber[(int)DesireName.Hungriness] < 100) {
-            saveData.desireNumber[(int)DesireName.Hungriness]++;
+        while(saveData.desireNumber[(int)DesireName.Hungriness] > 0) {
+            saveData.desireNumber[(int)DesireName.Hungriness]--;
             //Debug.Log(saveData.desireNumber[(int)DesireName.Hungriness]); //
             yield return new WaitForSeconds(1f);
         }
     }
 
-    public void DecreaseToileting() //상호작용 발생시 호출
+    public void IncreaseToileting() //상호작용 발생시 호출
     {
-        saveData.desireNumber[(int)DesireName.Toileting] -= 10; //n값 정해지면 수정
+        saveData.desireNumber[(int)DesireName.Toileting] += 10; //n값 정해지면 수정
         //Debug.Log(saveData.desireNumber[(int)DesireName.Toileting]); //
     }
 
-    IEnumerator IncreaseToileting()
+    IEnumerator DecreaseToileting()
     {
-        while(saveData.desireNumber[(int)DesireName.Toileting] < 100) {
-            saveData.desireNumber[(int)DesireName.Toileting]++;
+        while(saveData.desireNumber[(int)DesireName.Toileting] > 0) {
+            saveData.desireNumber[(int)DesireName.Toileting]--;
             //Debug.Log(saveData.desireNumber[(int)DesireName.Toileting]); //
             yield return new WaitForSeconds(1f);
         }
