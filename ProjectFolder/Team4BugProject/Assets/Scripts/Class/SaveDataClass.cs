@@ -20,6 +20,7 @@ public class SaveDataClass
     public List<BugIngameClass> appearedBugList;
     public float[] placeCleannessNumber;
     public bool isWindowOpen;
+    public float codingProgress;
 
 
     public SaveDataClass()
