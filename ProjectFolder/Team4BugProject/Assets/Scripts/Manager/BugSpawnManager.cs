@@ -9,6 +9,8 @@ public class BugSpawnManager : MonoBehaviour
     BugAppearingClassWrapper bugAppearingWrapper;
     SaveDataClass saveData;
     List<BugIngameClass> appearedBugList;
+    [SerializeField]
+    BugCatchManager bugCatchManager;
 
     [SerializeField]
     GameObject[] bugPrefab;
@@ -16,6 +18,8 @@ public class BugSpawnManager : MonoBehaviour
     GameObject bugWorldParent;
     [SerializeField]
     GameObject bugCanvasParent;
+
+    
 
     // Start is called before the first frame update
     void Start()
@@ -54,11 +58,21 @@ public class BugSpawnManager : MonoBehaviour
     IEnumerator BugSpawnCoroutine(BugName name)
     {
         BugAppearCondition condition = null;
+        BugClass bugClass = null;
         for (int i = 0; i < bugAppearingWrapper.conditionList.Count; i++)
         {
             if (bugAppearingWrapper.conditionList[i].appearingBug == name)
             {
                 condition = bugAppearingWrapper.conditionList[i];
+                break;
+            }
+        }
+
+        for(int i = 0; i < bugWrapper.bugList.Count; i++)
+        {
+            if (bugWrapper.bugList[i].name == name)
+            {
+                bugClass = bugWrapper.bugList[i];
                 break;
             }
         }
@@ -83,8 +97,9 @@ public class BugSpawnManager : MonoBehaviour
             {
                 bugParent = bugWorldParent;
             }
-            BugIngameClass bug = new BugIngameClass(name, bugPrefab[(int)name], bugParent, randomPos);
+            BugIngameClass bug = new BugIngameClass(bugClass, bugPrefab[(int)name], bugParent, randomPos);
             appearedBugList.Add(bug);
+            bugCatchManager.SetEventTrigger(bug);
         }
 
 

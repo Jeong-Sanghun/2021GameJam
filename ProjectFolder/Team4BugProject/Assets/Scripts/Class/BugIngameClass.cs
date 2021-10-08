@@ -9,6 +9,7 @@ public class BugIngameClass
     [System.NonSerialized]
     public GameObject bugObject;
     public Vector3 position;
+    public int nowHp;
 
     public void SetBugPrefab(GameObject prefab,GameObject parent)
     {
@@ -23,9 +24,10 @@ public class BugIngameClass
         position = Vector3.zero;
     }
 
-    public BugIngameClass(BugName _name, GameObject prefab, GameObject parent,Vector3 pos)
+    public BugIngameClass(BugClass bug, GameObject prefab, GameObject parent,Vector3 pos)
     {
-        name = _name;
+        name = bug.name;
+        nowHp = bug.hp;
         SetBugPrefab(prefab, parent);
         position = pos;
 
