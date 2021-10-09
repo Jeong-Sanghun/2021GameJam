@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class ButtonManager : MonoBehaviour
 {
+
     [SerializeField]
     GameManager gameManager;
+    [SerializeField]
+    SoundManager soundManager;
     [SerializeField]
     GameObject joyStick;
     [SerializeField]
@@ -62,6 +65,7 @@ public class ButtonManager : MonoBehaviour
         {
             interactionList[i].SetActive(false);
         }
+        soundManager.ClickTruePlay();
     }
 
     public void OnKitchenButton()
@@ -95,6 +99,7 @@ public class ButtonManager : MonoBehaviour
     {
         nowComputer = !active;
         buttonsParent.SetActive(active);
+        soundManager.ClickTruePlay();
     }
 
     
@@ -102,7 +107,7 @@ public class ButtonManager : MonoBehaviour
 
     public void OnInteractionButton()
     {
-       
+        soundManager.ClickTruePlay();
         interactionButtonParent.SetActive(false);
         for (int i = 0; i < interactionList.Count; i++)
         {

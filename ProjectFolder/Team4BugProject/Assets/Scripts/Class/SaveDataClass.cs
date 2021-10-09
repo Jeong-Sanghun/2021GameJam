@@ -21,7 +21,7 @@ public class SaveDataClass
     public float[] placeCleannessNumber;
     public bool isWindowOpen;
     public float codingProgress;
-
+    public int leftTime;
 
     public SaveDataClass()
     {
@@ -30,5 +30,6 @@ public class SaveDataClass
 
         isWindowOpen = false;
         appearedBugList = new List<BugIngameClass>();
+        leftTime = 300;
     }
 }

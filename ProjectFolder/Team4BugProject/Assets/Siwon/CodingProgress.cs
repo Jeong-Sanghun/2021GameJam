@@ -7,6 +7,8 @@ public class CodingProgress : MonoBehaviour
 {
     [SerializeField]
     GameManager gameManager;
+    [SerializeField]
+    SoundManager soundManager;
     public float codeFillAmount = 0.0f;
     public bool iscoding = false;
     public float codingTime = 0.0f;
@@ -28,6 +30,8 @@ public class CodingProgress : MonoBehaviour
         joystick.SetActive(false);
         killbutton.SetActive(false);
         hand.SetActive(false);
+        soundManager.CodingPlay();
+
     }
 
     public void StopCoding()
@@ -37,6 +41,7 @@ public class CodingProgress : MonoBehaviour
         joystick.SetActive(true);
         killbutton.SetActive(true);
         hand.SetActive(true);
+        soundManager.StopEffectSound();
     }
     void Update()
     {

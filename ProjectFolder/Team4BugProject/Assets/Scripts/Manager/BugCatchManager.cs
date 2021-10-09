@@ -8,6 +8,8 @@ public class BugCatchManager : MonoBehaviour
 {
     [SerializeField]
     GameManager gameManager;
+    [SerializeField]
+    SoundManager soundManager;
     SaveDataClass saveData;
     BugWrapper bugWrapper;
     List<BugIngameClass> appearedBugList;
@@ -124,7 +126,7 @@ public class BugCatchManager : MonoBehaviour
         }
 
         bug.nowHp--;
-        
+        soundManager.ClapPlay();
         if (bug.nowHp <= 0)
         {
             bug.bugObject.SetActive(false);

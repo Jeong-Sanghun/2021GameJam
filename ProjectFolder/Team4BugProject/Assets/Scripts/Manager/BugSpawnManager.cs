@@ -6,6 +6,8 @@ public class BugSpawnManager : MonoBehaviour
 {
     [SerializeField]
     GameManager gameManager;
+    [SerializeField]
+    SoundManager soundManager;
     BugWrapper bugWrapper;
     BugAppearingClassWrapper bugAppearingWrapper;
     SaveDataClass saveData;
@@ -106,6 +108,15 @@ public class BugSpawnManager : MonoBehaviour
             {
                 continue;
             }
+            if (name == BugName.Mosquito)
+            {
+                soundManager.MosquiotoPlay();
+            }
+            else if(name == BugName.Fly)
+            {
+                soundManager.FlyPlay();
+            }
+
             Vector3 randomPos;
             GameObject bugParent;
             if((int)name < 2)

@@ -7,6 +7,8 @@ public class DesireChangeManager : MonoBehaviour
 {
     [SerializeField]
     GameManager gameManager;
+    [SerializeField]
+    SoundManager soundManager;
     SaveDataClass saveData;
     [SerializeField]
     ButtonManager buttonManager;
@@ -81,9 +83,11 @@ public class DesireChangeManager : MonoBehaviour
     {
         if(saveData.isWindowOpen) {
             saveData.isWindowOpen = false;
+            soundManager.CloseWindowPlay();
         }
         else {
             saveData.isWindowOpen = true;
+            soundManager.OpenWindowPlay();
         }
       
         StartCoroutine(WindowStateChangeCoroutine(saveData.isWindowOpen));
@@ -157,10 +161,12 @@ public class DesireChangeManager : MonoBehaviour
         if (isCleaning)
         {
             hungrinessGaugeText.text = "Ã»¼ÒÇÏ´ÂÁß";
+            soundManager.DishesPlay();
         }
         else
         {
            hungrinessGaugeText.text = "¹ä¸Ô´ÂÁß";
+            soundManager.CookPlay();
         }
         float timer = 0;
         while (timer < 1)
@@ -219,10 +225,12 @@ public class DesireChangeManager : MonoBehaviour
         toiletGaugeObject.SetActive(true);
         if (isCleaning)
         {
+            soundManager.ToiletWashPlay();
             toiletGaugeText.text = "Ã»¼ÒÇÏ´ÂÁß";
         }
         else
         {
+            soundManager.ToiletPlay();
             toiletGaugeText.text = "¶Ë´Û´ÂÁß";
         }
         float timer = 0;
@@ -275,6 +283,7 @@ public class DesireChangeManager : MonoBehaviour
     
     public void CleanRecycleBin()
     {
+        soundManager.RecycleBinPlay();
         StartCoroutine(RecycleBinCleanCoroutine());
     }
 
@@ -314,8 +323,18 @@ public class DesireChangeManager : MonoBehaviour
         HungrinessGaugeBar.fillAmount = saveData.desireNumber[(int)DesireName.Hungriness] / 100;
         ToiletingGaugeBar.fillAmount = saveData.desireNumber[(int)DesireName.Toileting] / 100;
 
-        if((saveData.desireNumber[(int)DesireName.Air]<=0) || (saveData.desireNumber[(int)DesireName.Hungriness]<=0) || (saveData.desireNumber[(int)DesireName.Toileting]<=0) || 
-            saveData.appearedBugList.Count>40) {
+        if ((saveData.desireNumber[(int)DesireName.Air] <= 30) || (saveData.desireNumber[(int)DesireName.Hungriness] <= 30)
+            || (saveData.desireNumber[(int)DesireName.Toileting] <= 30) || saveData.appearedBugList.Count > 20 || 
+            saveData.leftTime < 120)
+        {
+            soundManager.BGMChanger(true);
+        }
+        else
+        {
+            soundManager.BGMChanger(false);
+        }
+        if ((saveData.desireNumber[(int)DesireName.Air]<=0) || (saveData.desireNumber[(int)DesireName.Hungriness]<=0) || (saveData.desireNumber[(int)DesireName.Toileting]<=0) || 
+            saveData.appearedBugList.Count>40 || saveData.leftTime<0) {
             GameOver();
         }
     }
