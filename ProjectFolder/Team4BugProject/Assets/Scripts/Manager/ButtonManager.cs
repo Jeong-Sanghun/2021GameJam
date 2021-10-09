@@ -100,12 +100,13 @@ public class ButtonManager : MonoBehaviour
         {
             interactionList[i].SetActive(false);
         }
+        nowComputer = true;
     }
 
     public void OnInteractionReturn()
     {
         buttonsParent.SetActive(true);
-
+        nowComputer = false;
     }
 
 

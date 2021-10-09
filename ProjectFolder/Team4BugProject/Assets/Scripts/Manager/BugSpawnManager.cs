@@ -81,10 +81,27 @@ public class BugSpawnManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(1f);
-            //if (condition.cleannessBorder < saveData.placeCleannessNumber[(int)condition.appearingPlace])
-            //{
-            //    continue;
-            //}
+            if(name == BugName.Mosquito)
+            {
+                if (saveData.isWindowOpen == false)
+                {
+                    continue;
+                }
+
+            }
+            else
+            {
+                if (condition.cleannessBorder > saveData.placeCleannessNumber[(int)condition.appearingPlace])
+                {
+                    continue;
+                }
+                else
+                {
+                    Debug.Log(condition.appearingPlace);
+                }
+
+            }
+
 
             //여기가 확률임.
             if (Random.Range(0f, 1f) > 0.5f)

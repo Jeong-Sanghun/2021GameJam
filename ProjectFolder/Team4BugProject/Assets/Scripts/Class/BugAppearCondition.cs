@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 //버그 하나가 한 장소에 나타나는데 필요한 컨디션
 public class BugAppearCondition
 {
@@ -14,7 +15,7 @@ public class BugAppearCondition
     {
         appearingBug = BugName.Fly;
         appearingPlace = PlaceName.RecycleBin;
-        cleannessBorder = 0;
+        cleannessBorder = 20;
     }
 
 }
