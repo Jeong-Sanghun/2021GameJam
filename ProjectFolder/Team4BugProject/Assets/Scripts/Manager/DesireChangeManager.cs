@@ -56,12 +56,9 @@ public class DesireChangeManager : MonoBehaviour
 
     /////
     IEnumerator cor;
-    float N = 30; //상호작용 한 번당 증가할 값
-    float M = 2f; //몇 초당 1씩 줄어드는지
+    float N = 10; //상호작용 한 번당 증가할 값
+    float M = 4f; //몇 초당 1씩 줄어드는지
     float k = 7f; //부엌, 화장실 상호작용 걸리는 시간
-
-    int cleanAmount = 200; //청소 시 감소하는 값
-
     // float i = 1f; //창문 여닫는데 걸리는 시간
 
 
@@ -191,11 +188,11 @@ public class DesireChangeManager : MonoBehaviour
         buttonManager.OnInteractionReturn();
         if (isCleaning) //청소 상호작용 시
         {
-            saveData.placeCleannessNumber[(int)PlaceName.Kitchen] -= cleanAmount; ////////
+            saveData.placeCleannessNumber[(int)PlaceName.Kitchen] -= 10; ////////
             if(saveData.placeCleannessNumber[(int)PlaceName.Kitchen] <= 20) //스프라이트 이미지교체
             {
-                //kitchen_clean으로 스프라이트 교체
-                PlaceSprList[(int)PlaceName.Kitchen].GetComponent<SpriteRenderer>().sprite = PlaceImgList[0];
+                //kitchen_dirty로 스프라이트 교체
+                PlaceSprList[(int)PlaceName.Kitchen].GetComponent<SpriteRenderer>().sprite = PlaceImgList[1];
             }
             if (saveData.placeCleannessNumber[(int)PlaceName.Kitchen] < 0)
             {
@@ -217,9 +214,8 @@ public class DesireChangeManager : MonoBehaviour
             saveData.placeCleannessNumber[(int)PlaceName.Kitchen] += Time.deltaTime / k * (N + (int)k);
             if(saveData.placeCleannessNumber[(int)PlaceName.Kitchen] >= 20) //스프라이트 이미지교체
             {
-                //kitchen_dirty로 스프라이트 교체
-                PlaceSprList[(int)PlaceName.Kitchen].GetComponent<SpriteRenderer>().sprite = PlaceImgList[1];
-                
+                //kitchen_clean으로 스프라이트 교체
+                PlaceSprList[(int)PlaceName.Kitchen].GetComponent<SpriteRenderer>().sprite = PlaceImgList[0];
             }
             yield return null;
             time += Time.deltaTime;
@@ -265,11 +261,11 @@ public class DesireChangeManager : MonoBehaviour
         buttonManager.OnInteractionReturn();
         if (isCleaning) //청소 상호작용 시
         {
-            saveData.placeCleannessNumber[(int)PlaceName.RestRoom] -= cleanAmount;
+            saveData.placeCleannessNumber[(int)PlaceName.RestRoom] -= 10;
             if(saveData.placeCleannessNumber[(int)PlaceName.RestRoom] <= 20) //스프라이트 이미지교체
             {
-                //restroom_clean으로 스프라이트 교체
-                PlaceSprList[(int)PlaceName.RestRoom].GetComponent<SpriteRenderer>().sprite = PlaceImgList[2];
+                //restroom_dirty로 스프라이트 교체
+                PlaceSprList[(int)PlaceName.RestRoom].GetComponent<SpriteRenderer>().sprite = PlaceImgList[3];
             }
             if (saveData.placeCleannessNumber[(int)PlaceName.RestRoom] < 0)
             {
@@ -291,9 +287,8 @@ public class DesireChangeManager : MonoBehaviour
             saveData.placeCleannessNumber[(int)PlaceName.RestRoom] += Time.deltaTime / k * (N + (int)k); ///
             if(saveData.placeCleannessNumber[(int)PlaceName.RestRoom] >= 20) //스프라이트 이미지교체
             {
-                //restroom_dirty로 스프라이트 교체
-                PlaceSprList[(int)PlaceName.RestRoom].GetComponent<SpriteRenderer>().sprite = PlaceImgList[3];
-                
+                //restroom_clean으로 스프라이트 교체
+                PlaceSprList[(int)PlaceName.RestRoom].GetComponent<SpriteRenderer>().sprite = PlaceImgList[2];
             }
             yield return null;
             time += Time.deltaTime;
@@ -329,11 +324,11 @@ public class DesireChangeManager : MonoBehaviour
         }
         recycleBinGaugeObject.SetActive(false);
         buttonManager.OnInteractionReturn();
-        saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] -= cleanAmount; /////
+        saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] -= 10; /////
         if (saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] >= 20) //스프라이트 이미지교체
         {
-            //recyclebin_dirty으로 스프라이트 교체
-            PlaceSprList[(int)PlaceName.RecycleBin].GetComponent<SpriteRenderer>().sprite = PlaceImgList[5];
+            //recyclebin_clean으로 스프라이트 교체
+            PlaceSprList[(int)PlaceName.RecycleBin].GetComponent<SpriteRenderer>().sprite = PlaceImgList[4];
         }
         if (saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] < 0)
         {
