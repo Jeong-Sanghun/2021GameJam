@@ -15,11 +15,11 @@ C:/GithubDesktop/2021GameJam/ProjectFolder/Team4BugProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62843
+58989
 Successfully changed project path to: C:/GithubDesktop/2021GameJam/ProjectFolder/Team4BugProject
 C:/GithubDesktop/2021GameJam/ProjectFolder/Team4BugProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 51.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/UnityEditor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,239 +35,868 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/UnityEditor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004451 seconds.
+Registered in 0.004142 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.862 seconds
+- Completed reload, in  3.022 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001803 seconds.
+Registered in 0.001656 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000019F7A1EF020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001FCFA271EB0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79BC5C30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001FCD0F49120 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F77539A30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001FCF9E8EA40 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F76BC0040 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001FCFD8A7040 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79E917A0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001FCFAA43030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79E917A0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001FCFD4327A0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7AA19220 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001FCFD6263B0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A53DA70 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001FCFDA88020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A001C30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001FCFD4327A0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A223230 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001FCFD6397C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79B71020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001FCFCF4E020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79B9EA30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001FCFCF7BA30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F77539A30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001FCFE132020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79E917A0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001FCFD6397C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A22A840 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001FCFDA88020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79E917A0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001FCFD610030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F76BC0040 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001FCF9EB8030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A36CE30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001FCFD10CA40 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A53DA70 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FCFD10CA40 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79948C20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001FCFD179020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7702E010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001FCFA14A730 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F77539A30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001FCFD43A7B0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F77466010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001FCFA3A3010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F773D8620 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001FCFE132020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F76BC0040 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001FCFA72B030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F77466010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001FCFA3A3010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79E917A0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001FCFD610030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A542480 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001FCFA1121B0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A543F50 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001FCFD95B1A0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A22A840 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001FCFDA88020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F77539A30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001FCFDE002D0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7AA19220 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001FCFA296AC0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.62 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 61.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.234 seconds
+- Completed reload, in  1.292 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1828 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.7 MB.
 System memory in use after: 87.7 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2272.
-Total: 3.002500 ms (FindLiveObjects: 0.473500 ms CreateObjectMapping: 0.219900 ms MarkObjects: 2.120600 ms  DeleteObjects: 0.187100 ms)
+Total: 2.753700 ms (FindLiveObjects: 0.467500 ms CreateObjectMapping: 0.215600 ms MarkObjects: 1.920000 ms  DeleteObjects: 0.149000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Siwon/GameTime.cs
-  artifactKey: Guid(a78955366e3171d4ab1ac7df0c43d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Siwon/GameTime.cs using Guid(a78955366e3171d4ab1ac7df0c43d1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a64715c5efe9d03642beb2bfeedc468') in 0.077817 seconds
-  Import took 0.082091 seconds .
+  path: Assets/Sprites/DungGeunMo.ttf
+  artifactKey: Guid(722d3af7b8a86494c9f9400904ac9113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/DungGeunMo.ttf using Guid(722d3af7b8a86494c9f9400904ac9113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e2f61a12f11c86e264ef0ec73c244a') in 0.199433 seconds
+  Import took 0.204166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000763 seconds.
-  path: Assets/Scripts/Manager
-  artifactKey: Guid(4915fbd35ab80ef47a61b88b8b55d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Manager using Guid(4915fbd35ab80ef47a61b88b8b55d510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b07615d8972a721bc3336b3a5905aca') in 0.009099 seconds
-  Import took 0.012478 seconds .
+  Time since last request: 0.000343 seconds.
+  path: Assets/Sprites/loadingIcon.png
+  artifactKey: Guid(d9ea8156018a3ea4888d14b03c92dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/loadingIcon.png using Guid(d9ea8156018a3ea4888d14b03c92dd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe688d6c4dcb512d31f2c4adaa1dfc4') in 0.050731 seconds
+  Import took 0.055007 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Siwon/CodingProgress.cs
-  artifactKey: Guid(0cb918c4dc650d4469bc564d20eaa6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Siwon/CodingProgress.cs using Guid(0cb918c4dc650d4469bc564d20eaa6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ba552eb4fd43dfd940dee0cd44aa02') in 0.011747 seconds
-  Import took 0.016317 seconds .
+  Time since last request: 2.506739 seconds.
+  path: Assets/Sprites/Button
+  artifactKey: Guid(f431fd777c3360f4ebecdeed31746b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Button using Guid(f431fd777c3360f4ebecdeed31746b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bc9b18fdf608d55a2b83672fac8110') in 0.007933 seconds
+  Import took 0.011286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007404 seconds.
+  path: Assets/Sprites/Button
+  artifactKey: Guid(f431fd777c3360f4ebecdeed31746b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Button using Guid(f431fd777c3360f4ebecdeed31746b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bc9b18fdf608d55a2b83672fac8110') in 0.003252 seconds
+  Import took 0.007735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022186 seconds.
+  path: Assets/Sprites/Button/bin_button.png
+  artifactKey: Guid(38403b9b8d3d3ae458e08c94ac7a5fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Button/bin_button.png using Guid(38403b9b8d3d3ae458e08c94ac7a5fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6db732c2260eab84411cb0e175b9282') in 0.022681 seconds
+  Import took 0.027605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Sprites/Button/toilet_button.png
+  artifactKey: Guid(4c8934391a1b07546a3d6918c5101c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Button/toilet_button.png using Guid(4c8934391a1b07546a3d6918c5101c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d83ced25b5b7d9c3ad9597ae5fcdd92') in 0.022987 seconds
+  Import took 0.028701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Sprites/Button/kitchen_button.png
+  artifactKey: Guid(1826e9f92384e144386fe2128a89b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Button/kitchen_button.png using Guid(1826e9f92384e144386fe2128a89b8f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c67d5155dc3e7c875a74a4937c9dc99') in 0.028585 seconds
+  Import took 0.033927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Sprites/Button/window_button.png
+  artifactKey: Guid(ba3ffa0bc8eabed41837a651176c06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Button/window_button.png using Guid(ba3ffa0bc8eabed41837a651176c06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f9df24ff295bfb486096e7e7ef42d5') in 0.025001 seconds
+  Import took 0.029965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.482914 seconds.
+  path: Assets/Sprites/button2/bin.png
+  artifactKey: Guid(c739358e98766334998d7a33601d3922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button2/bin.png using Guid(c739358e98766334998d7a33601d3922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf0f654f13314ca04f947f7c6d7766f') in 0.017325 seconds
+  Import took 0.022137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Sprites/button2/toilet_1.png
+  artifactKey: Guid(dacf8f6d097eadc408369879c32263f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button2/toilet_1.png using Guid(dacf8f6d097eadc408369879c32263f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bfc51550c1c1881d8d3ce2fce93403') in 0.021129 seconds
+  Import took 0.024826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Sprites/button2/kitchen_1.png
+  artifactKey: Guid(c1e67324844b053409b92a1dcab4449f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button2/kitchen_1.png using Guid(c1e67324844b053409b92a1dcab4449f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54cde0ac3eecadd79168c17c070de33') in 0.023469 seconds
+  Import took 0.028413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Sprites/button2/kitchen_2.png
+  artifactKey: Guid(780028c4e07afcf4b9f5d96f06eba51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button2/kitchen_2.png using Guid(780028c4e07afcf4b9f5d96f06eba51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502e95421ad584409717bbd4c137c66a') in 0.020294 seconds
+  Import took 0.024042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Sprites/button2/toilet_2.png
+  artifactKey: Guid(bbf35307d17475e4ca1959f0951bd3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button2/toilet_2.png using Guid(bbf35307d17475e4ca1959f0951bd3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100d6326a1062431ecda9223919a0e9f') in 0.017744 seconds
+  Import took 0.022110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Sprites/button2/window_2.png
+  artifactKey: Guid(74208e9b08208824280a3d2f5ad15f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button2/window_2.png using Guid(74208e9b08208824280a3d2f5ad15f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cb46afdf6171f8aed4f27bde09f820') in 0.018157 seconds
+  Import took 0.023033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Sprites/button2/window_1.png
+  artifactKey: Guid(420c56cda4504944b8803b0c07235b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/button2/window_1.png using Guid(420c56cda4504944b8803b0c07235b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb416ac94e99f5f291915a296b8e06e') in 0.016800 seconds
+  Import took 0.020750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.801142 seconds.
+  path: Assets/Sprites/ButtonSprites/bin.png
+  artifactKey: Guid(b44b9dc8cbcda6a489ad8d1dc9b2e4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ButtonSprites/bin.png using Guid(b44b9dc8cbcda6a489ad8d1dc9b2e4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65420e6d475d5884619fb34d87e379ba') in 0.013276 seconds
+  Import took 0.017188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Sprites/ButtonSprites/toilet_1.png
+  artifactKey: Guid(3f02892e1508b6b419f27a02a2b33bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ButtonSprites/toilet_1.png using Guid(3f02892e1508b6b419f27a02a2b33bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e71e5e9f5f4723521e524a97828f4f5') in 0.013681 seconds
+  Import took 0.017681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Sprites/ButtonSprites/toilet_2.png
+  artifactKey: Guid(09780f442d915dc4f9ac5c63b08b1c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ButtonSprites/toilet_2.png using Guid(09780f442d915dc4f9ac5c63b08b1c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680f3bb56ffa4deeac241c5f9fe4e912') in 0.012535 seconds
+  Import took 0.017098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Sprites/ButtonSprites/kitchen_2.png
+  artifactKey: Guid(9ac99f30e85a96849b86e043f5148383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ButtonSprites/kitchen_2.png using Guid(9ac99f30e85a96849b86e043f5148383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89974a85abbaef6f21865fb391b90ff') in 0.014029 seconds
+  Import took 0.018134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Sprites/ButtonSprites/window_2.png
+  artifactKey: Guid(ec8790a3ad909214e887e6fc43671619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ButtonSprites/window_2.png using Guid(ec8790a3ad909214e887e6fc43671619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4d3f93553e6661a78659901a6ceeb6') in 0.019092 seconds
+  Import took 0.023918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Sprites/ButtonSprites/window_1.png
+  artifactKey: Guid(6d2972599b8ccdb438e83637540b6286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ButtonSprites/window_1.png using Guid(6d2972599b8ccdb438e83637540b6286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae576cf73795dcb359c1d3415704c40') in 0.013514 seconds
+  Import took 0.018403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Sprites/ButtonSprites/kitchen_1.png
+  artifactKey: Guid(968531a663c40fd4f9ec0d1051ec9cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ButtonSprites/kitchen_1.png using Guid(968531a663c40fd4f9ec0d1051ec9cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54154079685a857b29b2b6f276c3c572') in 0.011678 seconds
+  Import took 0.016300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.131890 seconds.
+  path: Assets/Sprites/BugSprites/나방파리.png
+  artifactKey: Guid(915736f580170ae4e9eea04a5455cb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BugSprites/나방파리.png using Guid(915736f580170ae4e9eea04a5455cb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b232295e39bc00aa80ce1c3bef1a3328') in 0.017187 seconds
+  Import took 0.020997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Sprites/BugSprites/파리.png
+  artifactKey: Guid(04a66e7b300d2f04a9f95e64d8a4c370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BugSprites/파리.png using Guid(04a66e7b300d2f04a9f95e64d8a4c370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f48d4532e3c16a1e443ed64f717e712') in 0.018044 seconds
+  Import took 0.021164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Sprites/BugSprites/모기.png
+  artifactKey: Guid(889ecc543b58ac84187db39bf95dd860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BugSprites/모기.png using Guid(889ecc543b58ac84187db39bf95dd860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b9e26df813df4105b883a0bfc04112') in 0.018491 seconds
+  Import took 0.022098 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000429 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(c01a7c492f19e1d488f4787211ed6a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(c01a7c492f19e1d488f4787211ed6a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a347f822e6b8ad9dc9d0279bb2297cb0') in 0.006432 seconds
-  Import took 0.010877 seconds .
+  path: Assets/Sprites/BugSprites/바벌.png
+  artifactKey: Guid(fab3095a413d3604fbe80f4503053c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BugSprites/바벌.png using Guid(fab3095a413d3604fbe80f4503053c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918544f49f66ecb91ab9bee474572c8b') in 0.021026 seconds
+  Import took 0.025264 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.017406 seconds.
-  path: Assets/Siwon/CodingProgress.cs
-  artifactKey: Guid(0cb918c4dc650d4469bc564d20eaa6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Siwon/CodingProgress.cs using Guid(0cb918c4dc650d4469bc564d20eaa6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7723f590f0a43df9f65563bd6e03166a') in 0.007279 seconds
-  Import took 0.013067 seconds .
+  Time since last request: 62.183995 seconds.
+  path: Assets/Sprites/Dumy/KakaoTalk_20211009_003900037.png
+  artifactKey: Guid(b7862d16aa677db4ab9d9e167d0814f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dumy/KakaoTalk_20211009_003900037.png using Guid(b7862d16aa677db4ab9d9e167d0814f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a9a8d21b5cf0b94710526df87f2ae2') in 0.023741 seconds
+  Import took 0.028622 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.796868 seconds.
-  path: Assets/Siwon/CodingProgress.cs
-  artifactKey: Guid(0cb918c4dc650d4469bc564d20eaa6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Siwon/CodingProgress.cs using Guid(0cb918c4dc650d4469bc564d20eaa6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed91839e3c396c6c5512969ab215121a') in 0.005793 seconds
-  Import took 0.010721 seconds .
+  Time since last request: 0.000326 seconds.
+  path: Assets/Sprites/Dumy/KakaoTalk_20211009_003905564.png
+  artifactKey: Guid(156a3f2d9c7460f4db2421dda3c9f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dumy/KakaoTalk_20211009_003905564.png using Guid(156a3f2d9c7460f4db2421dda3c9f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f79fd5c95caffa2145d5cde71dc5cc') in 0.025237 seconds
+  Import took 0.032457 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.896361 seconds.
-  path: Assets/Siwon/CodingProgress.cs
-  artifactKey: Guid(0cb918c4dc650d4469bc564d20eaa6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Siwon/CodingProgress.cs using Guid(0cb918c4dc650d4469bc564d20eaa6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6da7182053692b7e9712bc4b1b2c87f') in 0.005575 seconds
-  Import took 0.010592 seconds .
+  Time since last request: 1.072036 seconds.
+  path: Assets/Sprites/result/continue.png
+  artifactKey: Guid(05dd8ab961fa9f94f9be96ea274bf5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/result/continue.png using Guid(05dd8ab961fa9f94f9be96ea274bf5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cddad9f56eb65ff74d09ceada8b42e') in 0.019470 seconds
+  Import took 0.023743 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.759044 seconds.
-  path: Assets/Siwon/CodingProgress.cs
-  artifactKey: Guid(0cb918c4dc650d4469bc564d20eaa6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Siwon/CodingProgress.cs using Guid(0cb918c4dc650d4469bc564d20eaa6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8e57721905c07c13afc52f2332c262') in 0.006596 seconds
-  Import took 0.010934 seconds .
+  Time since last request: 0.000432 seconds.
+  path: Assets/Sprites/result/gameclear.png
+  artifactKey: Guid(d47da8a23250cce43b97167aeeaa58d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/result/gameclear.png using Guid(d47da8a23250cce43b97167aeeaa58d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecfecfec143463d22280a4b646349ea') in 0.030453 seconds
+  Import took 0.034001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Sprites/result/restart.png
+  artifactKey: Guid(6c92d107e1c6f2a47b4d13e547ce8ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/result/restart.png using Guid(6c92d107e1c6f2a47b4d13e547ce8ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2cd688343e8bb1b34d5cd866917905') in 0.021641 seconds
+  Import took 0.025458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Sprites/result/pause_window.png
+  artifactKey: Guid(c1a024f008e80cd43a043bbef1e20d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/result/pause_window.png using Guid(c1a024f008e80cd43a043bbef1e20d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6161481bded9e75dbfb33cf18acde53e') in 0.023026 seconds
+  Import took 0.030308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Sprites/result/to_menu.png
+  artifactKey: Guid(7087ad21bc7929c4c8b33eee5069dc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/result/to_menu.png using Guid(7087ad21bc7929c4c8b33eee5069dc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499ccee38f4a544bbe5558f887d87a80') in 0.023640 seconds
+  Import took 0.029233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Sprites/result/gameover.png
+  artifactKey: Guid(f237b4058856ef44dab8938bb29ce959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/result/gameover.png using Guid(f237b4058856ef44dab8938bb29ce959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ef337a2bac98e42a94c76e12d94c9e') in 0.028176 seconds
+  Import took 0.035086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.208687 seconds.
+  path: Assets/Sprites/ui_1/catch_bug.png
+  artifactKey: Guid(7ebc3f29a70a8bf408b568b94221e630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ui_1/catch_bug.png using Guid(7ebc3f29a70a8bf408b568b94221e630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8800773aeb602078c439da9d3d098158') in 0.018681 seconds
+  Import took 0.022745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Sprites/ui_1/joy_in.png
+  artifactKey: Guid(2cb223612cfdb53499ccc8fde40019cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ui_1/joy_in.png using Guid(2cb223612cfdb53499ccc8fde40019cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f30d4ab5a552f6e787b35ccd561729') in 0.021555 seconds
+  Import took 0.026217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Sprites/ui_1/main_ui.png
+  artifactKey: Guid(9f28198f7b5f89e4bae300799c230576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ui_1/main_ui.png using Guid(9f28198f7b5f89e4bae300799c230576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ace72dc3979e932017a2e4d60de7bc6') in 0.026762 seconds
+  Import took 0.033198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Sprites/ui_1/code_gauge.png
+  artifactKey: Guid(cc0ac2184478bbd4dbbeb6a574a93385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ui_1/code_gauge.png using Guid(cc0ac2184478bbd4dbbeb6a574a93385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8ecd10253248d9f1210f73918614f4') in 0.033695 seconds
+  Import took 0.038696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprites/ui_1/DungGeunMo.ttf
+  artifactKey: Guid(46d724822aa6b874fac2820db7651933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ui_1/DungGeunMo.ttf using Guid(46d724822aa6b874fac2820db7651933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c5573a274b62525aa8d50257bdf35b') in 0.031168 seconds
+  Import took 0.035965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Sprites/ui_1/tool.png
+  artifactKey: Guid(0189857a41262ca4b8eebb77a7e5d315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ui_1/tool.png using Guid(0189857a41262ca4b8eebb77a7e5d315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad30bbd4470c7f28a8a7d61d81c414a') in 0.025459 seconds
+  Import took 0.032070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sprites/ui_1/pause.png
+  artifactKey: Guid(0f64292af3bc0e249864a53979f14b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ui_1/pause.png using Guid(0f64292af3bc0e249864a53979f14b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdcca2791b43d7066d4f9dc849c14d9') in 0.024589 seconds
+  Import took 0.028432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Sprites/ui_1/joy_out.png
+  artifactKey: Guid(e88169c282c11464ab2257003f17edbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ui_1/joy_out.png using Guid(e88169c282c11464ab2257003f17edbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578ce2030614ee1a56a10b5aeea9331c') in 0.022847 seconds
+  Import took 0.027377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Sprites/ui_1/desire_gauge.png
+  artifactKey: Guid(a3386eecb35f2944b99939db4481507e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ui_1/desire_gauge.png using Guid(a3386eecb35f2944b99939db4481507e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef257d31855d742d452a2ba17ada7d10') in 0.022484 seconds
+  Import took 0.026715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.971906 seconds.
+  path: Assets/Sprites/UISprites_1/catch_bug.png
+  artifactKey: Guid(f63837d6f1d49b7499d476527cc9c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites_1/catch_bug.png using Guid(f63837d6f1d49b7499d476527cc9c248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa319bf785de9e2fdd3cd3e64f5361b7') in 0.018588 seconds
+  Import took 0.022406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Sprites/UISprites_1/desire_gauge.png
+  artifactKey: Guid(c7417402bdf029d49abcc4b25ebc1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites_1/desire_gauge.png using Guid(c7417402bdf029d49abcc4b25ebc1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb35d07f0d40468110b31788c93c96a') in 0.012494 seconds
+  Import took 0.017340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Sprites/UISprites_1/tool.png
+  artifactKey: Guid(3958a5f816c966c4b9fcec989f9e0d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites_1/tool.png using Guid(3958a5f816c966c4b9fcec989f9e0d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90401bb5435bdc3b0cfff06cc1b201e4') in 0.017903 seconds
+  Import took 0.021915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Sprites/UISprites_1/pause.png
+  artifactKey: Guid(7e98aa8649631f64aa20330205a6c872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites_1/pause.png using Guid(7e98aa8649631f64aa20330205a6c872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8951d360160b4d5eee3d2a79c694a6b') in 0.017151 seconds
+  Import took 0.021156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Sprites/UISprites_1/main_ui.png
+  artifactKey: Guid(8c9292b0e33b7ab4487d6fa0ec6a74f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites_1/main_ui.png using Guid(8c9292b0e33b7ab4487d6fa0ec6a74f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4ad9d2768b9d20e82f317392a4d709') in 0.015590 seconds
+  Import took 0.021145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Sprites/UISprites_1/code_gauge.png
+  artifactKey: Guid(19a405c7dae11574e8116f0fd5c07012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites_1/code_gauge.png using Guid(19a405c7dae11574e8116f0fd5c07012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf729cedece8fd35eef9adca34e6bfab') in 0.015944 seconds
+  Import took 0.021779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Sprites/UISprites_1/joy_out.png
+  artifactKey: Guid(f15aea52bf23f504c9675feb94a2bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites_1/joy_out.png using Guid(f15aea52bf23f504c9675feb94a2bdf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7623a885e1f2fc22b6be1184cdc4807') in 0.029301 seconds
+  Import took 0.034614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Sprites/UISprites_1/joy_in.png
+  artifactKey: Guid(709a69b1bace53040a555b29aa78aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UISprites_1/joy_in.png using Guid(709a69b1bace53040a555b29aa78aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40428db1a052e359ef450bff64ccbae2') in 0.017025 seconds
+  Import took 0.021429 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003347 seconds.
+Registered in 0.005506 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000019F7763C470 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-000001FCFDDCF6B0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F76A34E90 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-000001FCD0F494C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A570240 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001FCFDEEF020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F76B0CFA0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-000001FCD10BAD40 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F76CDE010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001FCFA454810 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79FF0030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-000001FCFAA43030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A5FF880 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001FCFAA43030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7AA20A30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001FCFA047E00 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F77530230 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001FCFF42F010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7B93E030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001FCFF42F010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7763C470 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001FCFD61C4F0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7B93E030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001FCFF42F010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7B8A1C40 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-000001FCFCE15E20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7B93E030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001FCFF437020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7AA20A30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-000001FCFF9A1C50 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79FF0030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-000001FCFDDF66C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F76ACF420 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001FCFD50AA20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7AA20A30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001FCFF9A1C50 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7AA20A30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FCFA047E00 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7BD8C710 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001FCFA05D840 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79F88020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001FCFA8B2020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7B8A1C40 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-000001FCFCE15E20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7BD8C710 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-000001FCFCF4E020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7C3629C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-000001FCFF255B00 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F76B10490 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-000001FCF9E48020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A1EF020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001FCFD0D1020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7B376630 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001FCFEDFB420 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F76B111B0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001FCD10BAD40 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F4DBD2240 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001FCFD95BE50 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79874220 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-000001FCFCB60E90 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F7A570240 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-000001FCFFB37450 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000019F79A60C20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-000001FCFF437020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2334.
+Total: 2.706300 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 0.099700 ms MarkObjects: 2.187900 ms  DeleteObjects: 0.146000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 431.782398 seconds.
+  path: Assets/Sprites/result
+  artifactKey: Guid(57497ce63efc97f42b3dd811b39c394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/result using Guid(57497ce63efc97f42b3dd811b39c394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6736a538b1d3cc02a7896cb608931200') in 0.017754 seconds
+  Import took 0.023074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.228499 seconds.
+  path: Assets/Scripts/Manager/PauseManager.cs
+  artifactKey: Guid(70d07af806ed8834497d72a6a2341192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Manager/PauseManager.cs using Guid(70d07af806ed8834497d72a6a2341192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b425396c0c200e62c630b693ad9b308') in 0.028059 seconds
+  Import took 0.033951 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003735 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FCFDDCF6B0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCD0F494C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDA8AA20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCF8C150 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF42F010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF42F010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF42F010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFAA05020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF42F010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF42F010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD61C4F0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE3D4020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDA8AA20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCF9DD9010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDDF66C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDDF66C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCD0F3F320 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDDF66C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA047E00 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE70E010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA8B2020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDA8AA20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE70E010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA986B30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFEE05850 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD07D020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA297CC0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA269030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA03F5C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE722020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDA8AA20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCF9DD9010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.932 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.5 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 5.770400 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.135200 ms MarkObjects: 5.017000 ms  DeleteObjects: 0.259700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003567 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FCFDDCF6B0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCD0F494C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDFA1050 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA468A30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA61E040 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD772030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF08F020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE4405A0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA917010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA61E040 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCE2E020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE3D4020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDFA1050 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF08F020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD77BDC0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA917010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD899010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFFBD7020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA047E00 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFEDEA010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA8B2020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDFA1050 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFEDEA010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCF9E8EA40 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD899010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDEF1C40 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA188020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCB791D0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCD0F3C4B0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE26C7B0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF636770 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE7A4010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 25.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.6 MB.
+System memory in use after: 91.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 25.447500 ms (FindLiveObjects: 14.966700 ms CreateObjectMapping: 1.490700 ms MarkObjects: 8.704100 ms  DeleteObjects: 0.174300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.264681 seconds.
+  path: Assets/Scripts/Manager/PauseManager.cs
+  artifactKey: Guid(70d07af806ed8834497d72a6a2341192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Manager/PauseManager.cs using Guid(70d07af806ed8834497d72a6a2341192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f6fe431a86ff42af29b997433d766e') in 0.006548 seconds
+  Import took 0.009846 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.261921 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FD40608050 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCD0F494C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF9A5F60 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF55BFA0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE782200 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF732690 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE782200 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE574020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD772030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE782200 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCE2E020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA2C99E0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA789340 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE782200 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE574020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD2B5170 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCD0F3F320 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE574020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA047E00 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FD40AB8340 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA8B2020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF9A5F60 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FD40AB8340 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE270AC0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD783340 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA997D80 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE902050 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCB791D0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCD0F424E0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE574020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD5F4020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FD40716B20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
@@ -276,103 +905,197 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.440 seconds
+- Completed reload, in  1.442 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1823 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.7 MB.
-System memory in use after: 87.7 MB.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.6 MB.
+System memory in use after: 91.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2276.
-Total: 2.637400 ms (FindLiveObjects: 0.180000 ms CreateObjectMapping: 0.069900 ms MarkObjects: 2.232400 ms  DeleteObjects: 0.153900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 3.021100 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.128900 ms MarkObjects: 2.202800 ms  DeleteObjects: 0.222800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002189 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FCFD026020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCD0F494C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF7E8930 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD179070 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFEB08030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF732690 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFEB08030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFED7E020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA97EB20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFEB08030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCE2E020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE32DD20 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF7E8930 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFEB08030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE572010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFDBBA030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCF9EB7420 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE572010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA047E00 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFEDEA010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA8B2020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF7E8930 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFEDEA010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE270AC0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCF8C550 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FD40A5E970 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA188020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCB791D0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA0EF5D0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE572010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF7E8930 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCEC6020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.506 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.6 MB.
+System memory in use after: 91.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 2.474000 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.124000 ms MarkObjects: 1.788200 ms  DeleteObjects: 0.138300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.329114 seconds.
-  path: Assets/Sprites/PlaceSprites/DefaultBG.png
-  artifactKey: Guid(e6f815db03e195b48a3ddeed673b4ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/DefaultBG.png using Guid(e6f815db03e195b48a3ddeed673b4ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acd2bde3654df750368dca3ddd2cd35') in 0.550247 seconds
-  Import took 0.555228 seconds .
+  Time since last request: 196.759182 seconds.
+  path: Assets/userData/SaveData.json
+  artifactKey: Guid(40729ec015f838740bbe6a4c413b61e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/userData/SaveData.json using Guid(40729ec015f838740bbe6a4c413b61e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf5d7a95fd6a2d67122893682e8922b') in 0.032266 seconds
+  Import took 0.153131 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Sprites/PlaceSprites/Kitchen_dirty.png
-  artifactKey: Guid(54250aedc15b84941b3360f9f269d9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/Kitchen_dirty.png using Guid(54250aedc15b84941b3360f9f269d9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0061ffb47dbbf82609d53a0e77aada65') in 0.028455 seconds
-  Import took 0.033838 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004418 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001FCFD1FE8C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCD0F494C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCB94020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFFB016C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE3B5010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF5FD1F0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FD40A32010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCEF2030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA793860 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE3B5010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCE2E020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA3FF480 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCB94020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF78F950 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA4614E0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD2B5170 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCF8BA30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCEF2030 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFA626050 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FD40828010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FD40AD0360 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCB94020 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FD40828010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF53E060 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFCF8BA30 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FD40F91010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE2FD960 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFFB0D310 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFF9993C0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFD064370 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FD40AC5DA0 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FCFE7A4010 doesn't match image C:\GithubDesktop\2021GameJam\ProjectFolder\Team4BugProject\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.588 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1824 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.6 MB.
+System memory in use after: 91.6 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Sprites/PlaceSprites/RecycleBin_dirty.png
-  artifactKey: Guid(161c7bc3d7af4094a893a2487834ed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/RecycleBin_dirty.png using Guid(161c7bc3d7af4094a893a2487834ed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b06d3d843047312d9788606b6bbad0') in 0.023632 seconds
-  Import took 0.029023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/Sprites/PlaceSprites/Window_closed.png
-  artifactKey: Guid(3204b21c144a8a64f9739c019cd0b07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/Window_closed.png using Guid(3204b21c144a8a64f9739c019cd0b07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1e8bbc2eb51ca0e42f87aa675b2e91') in 0.026847 seconds
-  Import took 0.032101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Sprites/PlaceSprites/Restroom_dirty.png
-  artifactKey: Guid(ad77f2fd2af01954cb200f2f2675a9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/Restroom_dirty.png using Guid(ad77f2fd2af01954cb200f2f2675a9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7da27fdcd2e04427ce81728e1b7478') in 0.024447 seconds
-  Import took 0.030250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/Sprites/PlaceSprites/Restroom_clean.png
-  artifactKey: Guid(ffccf0fa5b8adab48b5b65798c769bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/Restroom_clean.png using Guid(ffccf0fa5b8adab48b5b65798c769bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a110e9c682309e34dcb67164f4d8b39e') in 0.022883 seconds
-  Import took 0.028050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Sprites/PlaceSprites/RecycleBin_clean.png
-  artifactKey: Guid(b2d8a99651604a94081cd1249836fa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/RecycleBin_clean.png using Guid(b2d8a99651604a94081cd1249836fa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2349aa4d5e04c9b5cd2528de13c8943') in 0.021752 seconds
-  Import took 0.026602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Sprites/PlaceSprites/Window_open.png
-  artifactKey: Guid(aacb59dd521460c4ba4f1f5f90e5c322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/Window_open.png using Guid(aacb59dd521460c4ba4f1f5f90e5c322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31feac49c36dd829c77e6a96e6c202ad') in 0.020867 seconds
-  Import took 0.025981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/Sprites/PlaceSprites/Kitchen_clean.png
-  artifactKey: Guid(31f74c31529869a489ef3a37f8db7689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/Kitchen_clean.png using Guid(31f74c31529869a489ef3a37f8db7689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c5c0b07c46eb8117a28d01cd48e4af') in 0.022232 seconds
-  Import took 0.028354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Sprites/PlaceSprites/DefaultBG.png
-  artifactKey: Guid(e6f815db03e195b48a3ddeed673b4ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/DefaultBG.png using Guid(e6f815db03e195b48a3ddeed673b4ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acd2bde3654df750368dca3ddd2cd35') in 0.017554 seconds
-  Import took 0.021957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014942 seconds.
-  path: Assets/Sprites/PlaceSprites/Kitchen_clean.png
-  artifactKey: Guid(31f74c31529869a489ef3a37f8db7689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/PlaceSprites/Kitchen_clean.png using Guid(31f74c31529869a489ef3a37f8db7689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c5c0b07c46eb8117a28d01cd48e4af') in 0.014950 seconds
-  Import took 0.019339 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 2.950600 ms (FindLiveObjects: 0.541500 ms CreateObjectMapping: 0.107600 ms MarkObjects: 2.153400 ms  DeleteObjects: 0.146700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
