@@ -8,7 +8,7 @@ public class BugMoveManager : MonoBehaviour
     GameManager gameManager;
     SaveDataClass saveData;
     List<BugIngameClass> appearedBugList;
-    const float mosquitoRoachMoveRange = 100f;
+    const float mosquitoRoachMoveRange = 200f;
     const float flyMossFlyMoveRange = 1f;
 
     // Start is called before the first frame update
@@ -38,8 +38,17 @@ public class BugMoveManager : MonoBehaviour
             RectTransform rect = bug.bugObject.GetComponent<RectTransform>();
             
             originPos =rect.anchoredPosition;
-            randomDeltaPos =originPos+ new Vector3(Random.Range(-mosquitoRoachMoveRange, 
-                mosquitoRoachMoveRange), Random.Range(-mosquitoRoachMoveRange, mosquitoRoachMoveRange), 0);
+            if(bug.name == BugName.Mosquito)
+            {
+                randomDeltaPos = originPos + new Vector3(Random.Range(-mosquitoRoachMoveRange,
+    mosquitoRoachMoveRange), Random.Range(-mosquitoRoachMoveRange, mosquitoRoachMoveRange), 0);
+            }
+            else
+            {
+                randomDeltaPos = originPos + new Vector3(Random.Range(-mosquitoRoachMoveRange/2,
+    mosquitoRoachMoveRange/2), Random.Range(-mosquitoRoachMoveRange/2, mosquitoRoachMoveRange/2), 0);
+            }
+
             if(randomDeltaPos.x > 1280)
             {
                 randomDeltaPos.x = 1280;
@@ -65,8 +74,16 @@ public class BugMoveManager : MonoBehaviour
                 if (timer >= 1)
                 {
                     originPos = rect.anchoredPosition;
-                    randomDeltaPos = originPos + new Vector3(Random.Range(-mosquitoRoachMoveRange
-                        , mosquitoRoachMoveRange), Random.Range(-mosquitoRoachMoveRange, mosquitoRoachMoveRange), 0);
+                    if (bug.name == BugName.Mosquito)
+                    {
+                        randomDeltaPos = originPos + new Vector3(Random.Range(-mosquitoRoachMoveRange,
+            mosquitoRoachMoveRange), Random.Range(-mosquitoRoachMoveRange, mosquitoRoachMoveRange), 0);
+                    }
+                    else
+                    {
+                        randomDeltaPos = originPos + new Vector3(Random.Range(-mosquitoRoachMoveRange / 2,
+            mosquitoRoachMoveRange / 2), Random.Range(-mosquitoRoachMoveRange / 2, mosquitoRoachMoveRange / 2), 0);
+                    }
                     timer = 0;
                     bug.position = originPos;
                     if(bug.name == BugName.Mosquito)

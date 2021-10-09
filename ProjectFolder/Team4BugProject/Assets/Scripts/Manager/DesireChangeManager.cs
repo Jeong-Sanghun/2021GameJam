@@ -2,7 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Text;
 
+
+public enum GameOvered
+{
+    Air,Hungry,Toilet,Time,Bug,
+}
 public class DesireChangeManager : MonoBehaviour
 {
     [SerializeField]
@@ -48,6 +54,9 @@ public class DesireChangeManager : MonoBehaviour
 
     /////
     [SerializeField] GameObject GameOverPopUp;
+    [SerializeField] Text gameOverText;
+    [SerializeField] Text leftTimeText;
+
 
     /////
     [SerializeField] List<GameObject> PlaceSprList = new List<GameObject>();
@@ -345,9 +354,57 @@ public class DesireChangeManager : MonoBehaviour
     }
 
     ////////////////////////////////////
-
-    void GameOver()
+    bool isGameOvered = false;
+    void GameOver(GameOvered reason)
     {
+        if(isGameOvered == true)
+        {
+            return;
+        }
+        switch (reason)
+        {
+            case GameOvered.Air:
+                gameOverText.text = "맑은 공기를 마시지 못해 쓰러졌습니다...";
+                break;
+            case GameOvered.Hungry:
+                gameOverText.text = "배고픔을 견디다 기절했습니다...";
+                break;
+            case GameOvered.Toilet:
+                gameOverText.text = "화장실 가는 것을 참다가 참사가 일어났습니다..." ;
+                break;
+            case GameOvered.Bug:
+                gameOverText.text = "벌레들에 둘러쌓여 쓰러졌습니다...";
+                break;
+            case GameOvered.Time:
+                gameOverText.text = "밀려오는 졸음을 버티지 못하고 쓰러졌습니다...";
+                leftTimeText.gameObject.SetActive(false);
+                break;
+            default:
+                break;
+        }
+        StringBuilder builder =new StringBuilder( "남은시간 ");
+        if (saveData.leftTime / 60 < 10)
+        {
+            builder.Append("0");
+            builder.Append((saveData.leftTime / 60).ToString());
+        }
+        else
+        {
+            builder.Append((saveData.leftTime / 60).ToString());
+        }
+        builder.Append(" : ");
+        if (saveData.leftTime % 60 < 10)
+        {
+            builder.Append("0");
+            builder.Append((saveData.leftTime % 60).ToString());
+        }
+        else
+        {
+            builder.Append((saveData.leftTime % 60).ToString());
+        }
+        leftTimeText.text = builder.ToString();
+
+        isGameOvered = true;
         Time.timeScale = 0;
         GameOverPopUp.SetActive(true);
         gameManager.saveData = new SaveDataClass();
@@ -376,10 +433,28 @@ public class DesireChangeManager : MonoBehaviour
 
 
         //게임오버
-        if ((saveData.desireNumber[(int)DesireName.Air] <= 0) || (saveData.desireNumber[(int)DesireName.Hungriness] <= 0) || (saveData.desireNumber[(int)DesireName.Toileting] <= 0) ||
-            saveData.appearedBugList.Count > 40 || saveData.leftTime < 0)
+        if (saveData.desireNumber[(int)DesireName.Air] <= 0)
         {
-            GameOver();
+            GameOver(GameOvered.Air);
+
         }
+        if(saveData.desireNumber[(int)DesireName.Hungriness] <= 0)
+        {
+            GameOver(GameOvered.Hungry);
+        }
+            
+         if(saveData.desireNumber[(int)DesireName.Toileting] <= 0)
+        {
+            GameOver(GameOvered.Toilet);
+        }
+          if(saveData.appearedBugList.Count > 40)
+        {
+            GameOver(GameOvered.Bug);
+        }
+            if(saveData.leftTime < 0)
+        {
+            GameOver(GameOvered.Time);
+        }
+
     }
 }
