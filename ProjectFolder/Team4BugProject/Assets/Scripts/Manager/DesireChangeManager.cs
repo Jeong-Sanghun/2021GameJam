@@ -38,6 +38,12 @@ public class DesireChangeManager : MonoBehaviour
 
 
     /////
+    [SerializeField] Image AirGaugeBar;
+    [SerializeField] Image HungrinessGaugeBar;
+    [SerializeField] Image ToiletingGaugeBar;
+
+
+    /////
     IEnumerator cor;
     float N = 10; //상호작용 한 번당 증가할 값
     float M = 0.5f; //몇 초당 1씩 줄어드는지

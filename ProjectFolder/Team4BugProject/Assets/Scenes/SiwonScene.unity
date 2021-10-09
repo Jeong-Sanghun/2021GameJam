@@ -2027,6 +2027,9 @@ MonoBehaviour:
   toiletGaugeImage: {fileID: 1867110992}
   recycleBinGaugeObject: {fileID: 1898695941}
   recycleBinGaugeImage: {fileID: 351346389}
+  AirGaugeBar: {fileID: 1337683195}
+  HungrinessGaugeBar: {fileID: 123458980}
+  ToiletingGaugeBar: {fileID: 1821945441}
 --- !u!1 &585744483
 GameObject:
   m_ObjectHideFlags: 0
