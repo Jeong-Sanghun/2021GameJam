@@ -116,6 +116,7 @@ public class CodingProgress : MonoBehaviour
         leftTimeText.text = builder.ToString();
 
         GameWinUI.SetActive(true);
+        soundManager.StopWholeSound();
         Time.timeScale = 0;
         gameManager.saveData = new SaveDataClass();
         gameManager.SaveJson();

@@ -26,5 +26,6 @@ public class PauseManager : MonoBehaviour
     {
         gameManager.SaveJson();
         SceneManager.LoadScene(0);
+        Time.timeScale = 1;
     }
 }

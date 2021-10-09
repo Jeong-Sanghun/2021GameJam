@@ -8,6 +8,8 @@ public class StartGameManager : MonoBehaviour
     public void OnClickNewStartBtn()
     {
         //새로 시작하기
+        JsonManager jsonManager = new JsonManager();
+        jsonManager.SaveJson(new SaveDataClass());
         SceneManager.LoadScene("SiwonScene");
     }
 

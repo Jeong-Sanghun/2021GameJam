@@ -19,7 +19,7 @@ public class ManualManager : MonoBehaviour
 
     public void OnClickNextBtn()
     {
-        if(currentPage < 5) {
+        if(currentPage < 4) {
             ManualLst[currentPage].SetActive(false);
             ManualLst[currentPage+1].SetActive(true);
             currentPage++;

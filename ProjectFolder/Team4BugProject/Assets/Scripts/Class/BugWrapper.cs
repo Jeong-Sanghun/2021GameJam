@@ -25,7 +25,7 @@ public class BugWrapper
 
         bug = new BugClass();
         bug.name = BugName.Mosquito;
-        bug.hp = 2;
+        bug.hp = 1;
         bug.isOnScreen = true;
         bugList.Add(bug);
 

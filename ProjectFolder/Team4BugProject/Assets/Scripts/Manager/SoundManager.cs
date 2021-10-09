@@ -166,6 +166,14 @@ public class SoundManager : MonoBehaviour
         effectAudio.loop = false;
     }
 
+    public void StopWholeSound()
+    {
+        clapAudio.Stop();
+        alertAudio.Stop();
+         bugAudio.Stop();
+        effectAudio.Stop();
+    }
+
 
 
    

@@ -1,0 +1,27 @@
+{
+    "desireNumber": [
+        98.0,
+        98.0,
+        98.0
+    ],
+    "appearedBugList": [
+        {
+            "name": 3,
+            "position": {
+                "x": -0.958277702331543,
+                "y": -2.6199417114257814,
+                "z": 0.0
+            },
+            "nowHp": 1
+        }
+    ],
+    "placeCleannessNumber": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+    ],
+    "isWindowOpen": false,
+    "codingProgress": 0.0,
+    "leftTime": 298
+}

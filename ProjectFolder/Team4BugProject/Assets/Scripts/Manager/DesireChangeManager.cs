@@ -407,6 +407,7 @@ public class DesireChangeManager : MonoBehaviour
         isGameOvered = true;
         Time.timeScale = 0;
         GameOverPopUp.SetActive(true);
+        soundManager.StopWholeSound();
         gameManager.saveData = new SaveDataClass();
         gameManager.SaveJson();
     }

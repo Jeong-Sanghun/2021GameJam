@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class BugMoveManager : MonoBehaviour
 {
     [SerializeField]
     GameManager gameManager;
+    [SerializeField]
+    Sprite flyingMosquito;
+    [SerializeField]
+    Sprite sittedMosquito;
     SaveDataClass saveData;
     List<BugIngameClass> appearedBugList;
     const float mosquitoRoachMoveRange = 200f;
@@ -89,7 +93,9 @@ public class BugMoveManager : MonoBehaviour
                     if(bug.name == BugName.Mosquito)
                     {
                         bug.sitted = true;
+                        bug.bugObject.GetComponent<Image>().sprite = sittedMosquito;
                         yield return new WaitForSeconds(0.3f);
+                        bug.bugObject.GetComponent<Image>().sprite = flyingMosquito;
                         bug.sitted = false;
                     }
                 }
