@@ -30,7 +30,7 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointer
 
     public void OnDrag(PointerEventData eventData)
     {
-        Vector2 radius = (outLine.sizeDelta *0.5f) / 2;
+        Vector2 radius = (outLine.sizeDelta ) / 2;
         //Debug.Log(eventData.position.x);
         Debug.Log((eventData.position - outLine.anchoredPosition) / (radius * canvas.scaleFactor));
         input = new Vector2((eventData.position - outLine.anchoredPosition).x / (radius * canvas.scaleFactor).x - 6.4f, (eventData.position - outLine.anchoredPosition).y / (radius * canvas.scaleFactor).y - 3.8f);

@@ -116,12 +116,10 @@ public class ButtonManager : MonoBehaviour
         nowComputer = true;
         joyStick.SetActive(false);
         catchButton.SetActive(false);
-        nowInteraction = true;
     }
 
     public void OnInteractionReturn()
     {
-        nowInteraction = false;
         buttonsParent.SetActive(true);
         nowComputer = false;
         joyStick.SetActive(true);
