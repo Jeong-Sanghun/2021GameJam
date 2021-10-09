@@ -7,7 +7,8 @@ public class StartGameManager : MonoBehaviour
 {
     public void OnClickNewStartBtn()
     {
-        //~~
+        //새로 시작하기
+        SceneManager.LoadScene("SiwonScene");
     }
 
     public void OnClickContinueBtn()
