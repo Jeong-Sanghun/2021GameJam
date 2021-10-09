@@ -50,7 +50,9 @@ public class DesireChangeManager : MonoBehaviour
     [SerializeField] GameObject GameOverPopUp;
 
     /////
-    [SerializeField] List<Image> PlaceImgList = new List<Image>();
+    [SerializeField] List<GameObject> PlaceSprList = new List<GameObject>();
+    //kitchen restroom recyclebin window 순서
+    [SerializeField] List<Sprite> PlaceImgList = new List<Sprite>();
 
     /////
     IEnumerator cor;
@@ -86,10 +88,16 @@ public class DesireChangeManager : MonoBehaviour
     {
         if(saveData.isWindowOpen) {
             saveData.isWindowOpen = false;
+            //스프라이트 이미지교체
+            //window_closed으로 스프라이트 교체
+            PlaceSprList[(int)PlaceName.Window].GetComponent<SpriteRenderer>().sprite = PlaceImgList[6];
             soundManager.CloseWindowPlay();
         }
         else {
             saveData.isWindowOpen = true;
+            //스프라이트 이미지교체
+            //window_open으로 스프라이트 교체
+            PlaceSprList[(int)PlaceName.Window].GetComponent<SpriteRenderer>().sprite = PlaceImgList[7];
             soundManager.OpenWindowPlay();
         }
       
@@ -137,7 +145,6 @@ public class DesireChangeManager : MonoBehaviour
     {
         while(saveData.desireNumber[(int)DesireName.Air] < 100) {
             saveData.desireNumber[(int)DesireName.Air]++;
-            // Debug.Log(saveData.desireNumber[(int)DesireName.Air]); /////
             yield return new WaitForSeconds(1f);
         }
     }
@@ -146,7 +153,6 @@ public class DesireChangeManager : MonoBehaviour
     {
         while(saveData.desireNumber[(int)DesireName.Air] > 0) {
             saveData.desireNumber[(int)DesireName.Air]--;
-            // Debug.Log(saveData.desireNumber[(int)DesireName.Air]); /////
             yield return new WaitForSeconds(M);
         }
     }
@@ -180,9 +186,14 @@ public class DesireChangeManager : MonoBehaviour
         }
        hungrinessGaugeObject.SetActive(false);
         buttonManager.OnInteractionReturn();
-        if (isCleaning)
+        if (isCleaning) //청소 상호작용 시
         {
-            saveData.placeCleannessNumber[(int)PlaceName.Kitchen] -= 10;
+            saveData.placeCleannessNumber[(int)PlaceName.Kitchen] -= 10; ////////
+            if(saveData.placeCleannessNumber[(int)PlaceName.Kitchen] <= 20) //스프라이트 이미지교체
+            {
+                //kitchen_dirty로 스프라이트 교체
+                PlaceSprList[(int)PlaceName.Kitchen].GetComponent<SpriteRenderer>().sprite = PlaceImgList[1];
+            }
             if (saveData.placeCleannessNumber[(int)PlaceName.Kitchen] < 0)
             {
                 saveData.placeCleannessNumber[(int)PlaceName.Kitchen] = 0;
@@ -201,7 +212,11 @@ public class DesireChangeManager : MonoBehaviour
         while(time < k) {
             saveData.desireNumber[(int)DesireName.Hungriness] += Time.deltaTime / k * (N+(int)k);
             saveData.placeCleannessNumber[(int)PlaceName.Kitchen] += Time.deltaTime / k * (N + (int)k);
-            //Debug.Log("hungriness : " + saveData.desireNumber[(int)DesireName.Hungriness]); /////
+            if(saveData.placeCleannessNumber[(int)PlaceName.Kitchen] >= 20) //스프라이트 이미지교체
+            {
+                //kitchen_clean으로 스프라이트 교체
+                PlaceSprList[(int)PlaceName.Kitchen].GetComponent<SpriteRenderer>().sprite = PlaceImgList[0];
+            }
             yield return null;
             time += Time.deltaTime;
         }
@@ -211,7 +226,6 @@ public class DesireChangeManager : MonoBehaviour
     {
         while(saveData.desireNumber[(int)DesireName.Hungriness] > 0) {
             saveData.desireNumber[(int)DesireName.Hungriness]--;
-            //Debug.Log("hungriness : " + saveData.desireNumber[(int)DesireName.Hungriness]); /////
             yield return new WaitForSeconds(M);
         }
     }
@@ -245,9 +259,14 @@ public class DesireChangeManager : MonoBehaviour
         }
         toiletGaugeObject.SetActive(false);
         buttonManager.OnInteractionReturn();
-        if (isCleaning)
+        if (isCleaning) //청소 상호작용 시
         {
             saveData.placeCleannessNumber[(int)PlaceName.RestRoom] -= 10;
+            if(saveData.placeCleannessNumber[(int)PlaceName.RestRoom] <= 20) //스프라이트 이미지교체
+            {
+                //restroom_dirty로 스프라이트 교체
+                PlaceSprList[(int)PlaceName.RestRoom].GetComponent<SpriteRenderer>().sprite = PlaceImgList[3];
+            }
             if (saveData.placeCleannessNumber[(int)PlaceName.RestRoom] < 0)
             {
                 saveData.placeCleannessNumber[(int)PlaceName.RestRoom] = 0;
@@ -265,8 +284,12 @@ public class DesireChangeManager : MonoBehaviour
         float time = 0f;
         while(time < k) {
             saveData.desireNumber[(int)DesireName.Toileting] += Time.deltaTime / k * (N+(int)k);
-            saveData.placeCleannessNumber[(int)PlaceName.RestRoom] += Time.deltaTime / k * (N + (int)k);
-            //Debug.Log(saveData.desireNumber[(int)DesireName.Toileting]); /////
+            saveData.placeCleannessNumber[(int)PlaceName.RestRoom] += Time.deltaTime / k * (N + (int)k); ///
+            if(saveData.placeCleannessNumber[(int)PlaceName.RestRoom] >= 20) //스프라이트 이미지교체
+            {
+                //restroom_clean으로 스프라이트 교체
+                PlaceSprList[(int)PlaceName.RestRoom].GetComponent<SpriteRenderer>().sprite = PlaceImgList[2];
+            }
             yield return null;
             time += Time.deltaTime;
         }
@@ -277,7 +300,6 @@ public class DesireChangeManager : MonoBehaviour
     {
         while(saveData.desireNumber[(int)DesireName.Toileting] > 0) {
             saveData.desireNumber[(int)DesireName.Toileting]--;
-            //Debug.Log(saveData.desireNumber[(int)DesireName.Toileting]); /////
             yield return new WaitForSeconds(M);
         }
     }
@@ -302,7 +324,12 @@ public class DesireChangeManager : MonoBehaviour
         }
         recycleBinGaugeObject.SetActive(false);
         buttonManager.OnInteractionReturn();
-        saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] -= 10;
+        saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] -= 10; /////
+        if (saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] >= 20) //스프라이트 이미지교체
+        {
+            //recyclebin_clean으로 스프라이트 교체
+            PlaceSprList[(int)PlaceName.RecycleBin].GetComponent<SpriteRenderer>().sprite = PlaceImgList[4];
+        }
         if (saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] < 0)
         {
             saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] = 0;
@@ -322,10 +349,13 @@ public class DesireChangeManager : MonoBehaviour
 
     void FixedUpdate()
     {
+        //욕구게이지바
         AirGaugeBar.fillAmount = saveData.desireNumber[(int)DesireName.Air] / 100;
         HungrinessGaugeBar.fillAmount = saveData.desireNumber[(int)DesireName.Hungriness] / 100;
         ToiletingGaugeBar.fillAmount = saveData.desireNumber[(int)DesireName.Toileting] / 100;
 
+
+        //사운드
         if ((saveData.desireNumber[(int)DesireName.Air] <= 30) || (saveData.desireNumber[(int)DesireName.Hungriness] <= 30)
             || (saveData.desireNumber[(int)DesireName.Toileting] <= 30) || saveData.appearedBugList.Count > 20 || 
             saveData.leftTime < 120)
@@ -336,6 +366,9 @@ public class DesireChangeManager : MonoBehaviour
         {
             soundManager.BGMChanger(false);
         }
+        
+
+        //게임오버
         if ((saveData.desireNumber[(int)DesireName.Air]<=0) || (saveData.desireNumber[(int)DesireName.Hungriness]<=0) || (saveData.desireNumber[(int)DesireName.Toileting]<=0) || 
             saveData.appearedBugList.Count>40 || saveData.leftTime<0) {
             GameOver();

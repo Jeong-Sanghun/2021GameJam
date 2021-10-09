@@ -50,6 +50,10 @@ public class CodingProgress : MonoBehaviour
         {
             codingTime += Time.deltaTime;
             gameManager.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] += Time.deltaTime / k * (N + (int)k);
+            if(gameManager.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] >= 20) ////////// 스프라이트 이미지교체
+            {
+                //RecycleBin_dirty로 sprite 교체
+            }
         }
 
         if(codingTime >= 2.0f)

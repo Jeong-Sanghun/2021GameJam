@@ -1,10 +1,20 @@
 {
     "desireNumber": [
-        100.0,
-        100.0,
-        100.0
+        99.0,
+        99.0,
+        99.0
     ],
-    "appearedBugList": [],
+    "appearedBugList": [
+        {
+            "name": 0,
+            "position": {
+                "x": -610.4700927734375,
+                "y": 110.40419006347656,
+                "z": 0.0
+            },
+            "nowHp": 2
+        }
+    ],
     "placeCleannessNumber": [
         0.0,
         0.0,
@@ -13,5 +23,5 @@
     ],
     "isWindowOpen": false,
     "codingProgress": 0.0,
-    "leftTime": 300
+    "leftTime": 299
 }
