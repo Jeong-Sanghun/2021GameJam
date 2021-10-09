@@ -144,6 +144,7 @@ public class SoundManager : MonoBehaviour
     {
         effectAudio.clip = coding;
         effectAudio.Play();
+        effectAudio.loop = true;
     }
 
     public void CloseWindowPlay()
@@ -162,6 +163,7 @@ public class SoundManager : MonoBehaviour
     public void StopEffectSound()
     {
         effectAudio.Stop();
+        effectAudio.loop = false;
     }
 
 
