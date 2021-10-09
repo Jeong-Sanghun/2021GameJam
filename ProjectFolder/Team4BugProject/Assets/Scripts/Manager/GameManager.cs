@@ -5,7 +5,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
-    public static GameManager inst;
 
     public BugAppearingClassWrapper bugAppearingWrapper;
     public BugWrapper bugWrapper;
@@ -14,21 +13,8 @@ public class GameManager : MonoBehaviour
 
 
 
-    private void Awake()
-    {
-        if(inst == null)
-        {
-            inst = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         bugWrapper = new BugWrapper();
         bugAppearingWrapper = new BugAppearingClassWrapper();

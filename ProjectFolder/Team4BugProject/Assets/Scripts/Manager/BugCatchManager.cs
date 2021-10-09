@@ -6,16 +6,18 @@ using UnityEngine.EventSystems;
 
 public class BugCatchManager : MonoBehaviour
 {
+    [SerializeField]
     GameManager gameManager;
     SaveDataClass saveData;
     BugWrapper bugWrapper;
     List<BugIngameClass> appearedBugList;
     [SerializeField]
     Transform handTransform;
+    [SerializeField]
+    ButtonManager buttonManager;
 
     private void Start()
     {
-        gameManager = GameManager.inst;
         saveData = gameManager.saveData;
         appearedBugList = saveData.appearedBugList;
         bugWrapper = gameManager.bugWrapper;
@@ -53,8 +55,6 @@ public class BugCatchManager : MonoBehaviour
         if ((int)bug.name < 2)
         {
             EventTrigger eventTrigger = bug.bugObject.GetComponent<EventTrigger>();
-
-            //��ư �̺�Ʈ
             EventTrigger.Entry entry = new EventTrigger.Entry();
             entry.eventID = EventTriggerType.PointerDown;
             entry.callback.AddListener((data) => { OnCatchEvent((PointerEventData)data, bug); });
@@ -96,6 +96,10 @@ public class BugCatchManager : MonoBehaviour
 
     void OnCatchEvent(PointerEventData data, BugIngameClass bug)
     {
+        if(buttonManager.nowInteraction == true)
+        {
+            return;
+        }
         if(bug.sitted==false && bug.name == BugName.Mosquito)
         {
             return;
@@ -140,6 +144,6 @@ public class BugCatchManager : MonoBehaviour
                 bug.bugObject.GetComponent<SpriteRenderer>().color = red;
             }
         }
-        GameManager.inst.SaveJson();
+        gameManager.SaveJson();
     }
 }

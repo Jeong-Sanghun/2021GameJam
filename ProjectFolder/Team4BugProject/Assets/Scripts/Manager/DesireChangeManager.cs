@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DesireChangeManager : MonoBehaviour
 {
+    [SerializeField]
     GameManager gameManager;
     SaveDataClass saveData;
     [SerializeField]
@@ -57,7 +58,6 @@ public class DesireChangeManager : MonoBehaviour
 
     void Start()
     {
-        gameManager = GameManager.inst;
         saveData = gameManager.saveData;
 
         if (saveData.isWindowOpen)
@@ -110,7 +110,7 @@ public class DesireChangeManager : MonoBehaviour
         windowGaugeObject.SetActive(false);
         buttonManager.OnInteractionReturn();
         WindowStateChanged();
-        GameManager.inst.SaveJson();
+        gameManager.SaveJson();
     }
 
     void WindowStateChanged()
@@ -183,7 +183,7 @@ public class DesireChangeManager : MonoBehaviour
         {
             StartCoroutine(IncreaseHungriness());
         }
-        GameManager.inst.SaveJson();
+        gameManager.SaveJson();
     }
 
     IEnumerator IncreaseHungriness() //시간 k동안 값이 N만큼 증가
@@ -246,7 +246,7 @@ public class DesireChangeManager : MonoBehaviour
         {
             StartCoroutine(IncreaseToileting());
         }
-        GameManager.inst.SaveJson();
+        gameManager.SaveJson();
     }
 
     IEnumerator IncreaseToileting() //시간 k동안 값이 N만큼 증가
@@ -295,7 +295,7 @@ public class DesireChangeManager : MonoBehaviour
         {
             saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] = 0;
         }
-        GameManager.inst.SaveJson();
+        gameManager.SaveJson();
     }
 
     ////////////////////////////////////
@@ -304,6 +304,8 @@ public class DesireChangeManager : MonoBehaviour
     {
         Time.timeScale = 0;
         GameOverPopUp.SetActive(true);
+        gameManager.saveData = new SaveDataClass();
+        gameManager.SaveJson();
     }
 
     void FixedUpdate()

@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class ButtonManager : MonoBehaviour
 {
-
+    [SerializeField]
+    GameManager gameManager;
+    [SerializeField]
+    GameObject joyStick;
+    [SerializeField]
+    GameObject catchButton;
+    
     [SerializeField]
     GameObject buttonsParent;
     [SerializeField]
@@ -29,6 +35,7 @@ public class ButtonManager : MonoBehaviour
     List<GameObject> interactionList;
 
     bool nowComputer;
+    public bool nowInteraction;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +49,7 @@ public class ButtonManager : MonoBehaviour
         interactionList.Add(interactionWindowOpen);
         interactionList.Add(interactionWindowClose);
         nowComputer = false;
-
+        nowInteraction = false;
 
 
     }
@@ -79,7 +86,7 @@ public class ButtonManager : MonoBehaviour
     {
         EssentialSetup();
         //만약 창문 열려있는지 아닌지에 한해 다르게 코딩해야함. if문 하나 들어가면 됨
-        bool isOpen = GameManager.inst.saveData.isWindowOpen;
+        bool isOpen = gameManager.saveData.isWindowOpen;
         windowCloseButton.SetActive(isOpen);
         windowOpenButton.SetActive(!isOpen);
     }
@@ -102,12 +109,18 @@ public class ButtonManager : MonoBehaviour
             interactionList[i].SetActive(false);
         }
         nowComputer = true;
+        joyStick.SetActive(false);
+        catchButton.SetActive(false);
+        nowInteraction = true;
     }
 
     public void OnInteractionReturn()
     {
+        nowInteraction = false;
         buttonsParent.SetActive(true);
         nowComputer = false;
+        joyStick.SetActive(true);
+        catchButton.SetActive(true);
     }
 
 

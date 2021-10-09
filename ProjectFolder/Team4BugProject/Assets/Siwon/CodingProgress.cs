@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class CodingProgress : MonoBehaviour
 {
+    [SerializeField]
+    GameManager gameManager;
     public float codeFillAmount = 0.0f;
     public bool iscoding = false;
     public float codingTime = 0.0f;
@@ -41,7 +43,7 @@ public class CodingProgress : MonoBehaviour
         if(iscoding == true)
         {
             codingTime += Time.deltaTime;
-            GameManager.inst.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] += Time.deltaTime / k * (N + (int)k);
+            gameManager.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] += Time.deltaTime / k * (N + (int)k);
         }
 
         if(codingTime >= 2.0f)

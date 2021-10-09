@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BugSpawnManager : MonoBehaviour
 {
+    [SerializeField]
     GameManager gameManager;
     BugWrapper bugWrapper;
     BugAppearingClassWrapper bugAppearingWrapper;
@@ -26,7 +27,6 @@ public class BugSpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameManager = GameManager.inst;
         bugWrapper = gameManager.bugWrapper;
         bugAppearingWrapper = gameManager.bugAppearingWrapper;
         saveData = gameManager.saveData;
@@ -122,7 +122,7 @@ public class BugSpawnManager : MonoBehaviour
             appearedBugList.Add(bug);
             bugCatchManager.SetEventTrigger(bug);
             bugMoveManager.MoveBug(bug);
-            GameManager.inst.SaveJson();
+            gameManager.SaveJson();
         }
 
 
