@@ -44,6 +44,9 @@ public class DesireChangeManager : MonoBehaviour
 
 
     /////
+    [SerializeField] GameObject GameOverPopUp;
+
+    /////
     IEnumerator cor;
     float N = 10; //상호작용 한 번당 증가할 값
     float M = 0.5f; //몇 초당 1씩 줄어드는지
@@ -297,11 +300,20 @@ public class DesireChangeManager : MonoBehaviour
 
     ////////////////////////////////////
 
-    //욕구 현황 게이지바 UI로 보이게 하기
-    void Update()
+    void GameOver()
+    {
+        Time.timeScale = 0;
+        GameOverPopUp.SetActive(true);
+    }
+
+    void FixedUpdate()
     {
         AirGaugeBar.fillAmount = saveData.desireNumber[(int)DesireName.Air] / 100;
         HungrinessGaugeBar.fillAmount = saveData.desireNumber[(int)DesireName.Hungriness] / 100;
         ToiletingGaugeBar.fillAmount = saveData.desireNumber[(int)DesireName.Toileting] / 100;
+
+        if((saveData.desireNumber[(int)DesireName.Air]==0) || (saveData.desireNumber[(int)DesireName.Hungriness]==0) || (saveData.desireNumber[(int)DesireName.Toileting]==0)) {
+            GameOver();
+        }
     }
 }
