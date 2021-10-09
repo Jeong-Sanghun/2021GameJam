@@ -49,7 +49,7 @@ public class DesireChangeManager : MonoBehaviour
     /////
     IEnumerator cor;
     float N = 10; //상호작용 한 번당 증가할 값
-    float M = 0.5f; //몇 초당 1씩 줄어드는지
+    float M = 4f; //몇 초당 1씩 줄어드는지
     float k = 2f; //부엌, 화장실 상호작용 걸리는 시간
     // float i = 1f; //창문 여닫는데 걸리는 시간
 
@@ -131,7 +131,7 @@ public class DesireChangeManager : MonoBehaviour
         while(saveData.desireNumber[(int)DesireName.Air] < 100) {
             saveData.desireNumber[(int)DesireName.Air]++;
             // Debug.Log(saveData.desireNumber[(int)DesireName.Air]); /////
-            yield return new WaitForSeconds(M);
+            yield return new WaitForSeconds(1f);
         }
     }
 
@@ -312,7 +312,8 @@ public class DesireChangeManager : MonoBehaviour
         HungrinessGaugeBar.fillAmount = saveData.desireNumber[(int)DesireName.Hungriness] / 100;
         ToiletingGaugeBar.fillAmount = saveData.desireNumber[(int)DesireName.Toileting] / 100;
 
-        if((saveData.desireNumber[(int)DesireName.Air]==0) || (saveData.desireNumber[(int)DesireName.Hungriness]==0) || (saveData.desireNumber[(int)DesireName.Toileting]==0)) {
+        if((saveData.desireNumber[(int)DesireName.Air]<=0) || (saveData.desireNumber[(int)DesireName.Hungriness]<=0) || (saveData.desireNumber[(int)DesireName.Toileting]<=0) || 
+            saveData.appearedBugList.Count>40) {
             GameOver();
         }
     }
