@@ -9,6 +9,10 @@ public class CodingProgress : MonoBehaviour
     GameManager gameManager;
     [SerializeField]
     SoundManager soundManager;
+    [SerializeField]
+    SpriteRenderer recycleBinRenderer;
+    [SerializeField]
+    Sprite recycleBinDirtySprite;
     public float codeFillAmount = 0.0f;
     public bool iscoding = false;
     public float codingTime = 0.0f;
@@ -53,6 +57,7 @@ public class CodingProgress : MonoBehaviour
             if(gameManager.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] >= 20) ////////// 스프라이트 이미지교체
             {
                 //RecycleBin_dirty로 sprite 교체
+                recycleBinRenderer.sprite = recycleBinDirtySprite;
             }
         }
 

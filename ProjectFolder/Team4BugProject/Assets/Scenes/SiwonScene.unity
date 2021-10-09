@@ -8176,6 +8176,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 2078536102}
   soundManager: {fileID: 2139617120}
+  recycleBinRenderer: {fileID: 231114427}
+  recycleBinDirtySprite: {fileID: 21300000, guid: 161c7bc3d7af4094a893a2487834ed31, type: 3}
   codeFillAmount: 0
   iscoding: 0
   codingTime: 0
