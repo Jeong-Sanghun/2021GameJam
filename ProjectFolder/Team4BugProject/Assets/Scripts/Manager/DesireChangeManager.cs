@@ -50,6 +50,9 @@ public class DesireChangeManager : MonoBehaviour
     [SerializeField] GameObject GameOverPopUp;
 
     /////
+    [SerializeField] List<Image> PlaceImgList = new List<Image>();
+
+    /////
     IEnumerator cor;
     float N = 10; //상호작용 한 번당 증가할 값
     float M = 4f; //몇 초당 1씩 줄어드는지
