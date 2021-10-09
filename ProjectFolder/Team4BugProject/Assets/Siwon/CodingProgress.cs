@@ -17,6 +17,7 @@ public class CodingProgress : MonoBehaviour
     public GameObject joystick;
     public GameObject killbutton;
     public GameObject hand;
+    public GameObject GameWinUI;
 
     float N = 10; //상호작용 한 번당 증가할 값
     float M = 0.5f; //몇 초당 1씩 줄어드는지
@@ -58,5 +59,10 @@ public class CodingProgress : MonoBehaviour
         }
 
         codeprogress.fillAmount = codeFillAmount / 100.0f;
+
+        if(codeFillAmount >=100.0f)
+        {
+            GameWinUI.SetActive(true);
+        }
     }
 }
