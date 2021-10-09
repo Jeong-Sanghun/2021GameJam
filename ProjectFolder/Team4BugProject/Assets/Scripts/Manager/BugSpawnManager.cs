@@ -36,11 +36,12 @@ public class BugSpawnManager : MonoBehaviour
             //로드했을때는 게임오브젝트가 없어서 이걸 해줘야함.
             if ((int)appearedBugList[i].name < 2)
             {
-                appearedBugList[i].SetBugPrefab(bugPrefab[(int)appearedBugList[i].name], bugCanvasParent);
+                appearedBugList[i].SetCanvasBugPrefab(bugPrefab[(int)appearedBugList[i].name], bugCanvasParent);
+                bugCatchManager.SetEventTrigger(appearedBugList[i]);
             }
             else
             {
-                appearedBugList[i].SetBugPrefab(bugPrefab[(int)appearedBugList[i].name], bugWorldParent);
+                appearedBugList[i].SetWorldBugPrefab(bugPrefab[(int)appearedBugList[i].name], bugWorldParent);
             }
             
         }
@@ -108,20 +109,23 @@ public class BugSpawnManager : MonoBehaviour
             {
                 continue;
             }
-            Vector3 randomPos = Vector3.zero;
+            Vector3 randomPos;
             GameObject bugParent;
             if((int)name < 2)
             {
                 bugParent = bugCanvasParent;
+                randomPos = new Vector3(Random.Range(-700f, 700f), Random.Range(-400f, 400f),0);
             }
             else
             {
                 bugParent = bugWorldParent;
+                randomPos = new Vector3(Random.Range(-5f, 5f), Random.Range(-3f, 3f), 0);
             }
             BugIngameClass bug = new BugIngameClass(bugClass, bugPrefab[(int)name], bugParent, randomPos);
             appearedBugList.Add(bug);
             bugCatchManager.SetEventTrigger(bug);
             bugMoveManager.MoveBug(bug);
+            GameManager.inst.SaveJson();
         }
 
 

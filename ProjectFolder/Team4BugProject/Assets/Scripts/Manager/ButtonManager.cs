@@ -95,6 +95,7 @@ public class ButtonManager : MonoBehaviour
 
     public void OnInteractionButton()
     {
+       
         interactionButtonParent.SetActive(false);
         for (int i = 0; i < interactionList.Count; i++)
         {

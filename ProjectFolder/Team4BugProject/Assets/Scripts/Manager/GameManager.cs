@@ -36,6 +36,11 @@ public class GameManager : MonoBehaviour
         saveData = jsonManager.LoadSaveData();
     }
 
+    public void SaveJson()
+    {
+        jsonManager.SaveJson(saveData);
+    }
+
     // Update is called once per frame
     void Update()
     {

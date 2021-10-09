@@ -57,7 +57,15 @@ public class DesireChangeManager : MonoBehaviour
         gameManager = GameManager.inst;
         saveData = gameManager.saveData;
 
-        cor = DecreaseAir();
+        if (saveData.isWindowOpen)
+        {
+            cor = IncreaseAir();
+        }
+        else
+        {
+            cor = DecreaseAir();
+        }
+        
         StartCoroutine(cor);
         StartCoroutine(DecreaseHungriness());
         StartCoroutine(DecreaseToileting());
@@ -74,6 +82,7 @@ public class DesireChangeManager : MonoBehaviour
         else {
             saveData.isWindowOpen = true;
         }
+      
         StartCoroutine(WindowStateChangeCoroutine(saveData.isWindowOpen));
     }
 
@@ -98,6 +107,7 @@ public class DesireChangeManager : MonoBehaviour
         windowGaugeObject.SetActive(false);
         buttonManager.OnInteractionReturn();
         WindowStateChanged();
+        GameManager.inst.SaveJson();
     }
 
     void WindowStateChanged()
@@ -170,6 +180,7 @@ public class DesireChangeManager : MonoBehaviour
         {
             StartCoroutine(IncreaseHungriness());
         }
+        GameManager.inst.SaveJson();
     }
 
     IEnumerator IncreaseHungriness() //시간 k동안 값이 N만큼 증가
@@ -232,6 +243,7 @@ public class DesireChangeManager : MonoBehaviour
         {
             StartCoroutine(IncreaseToileting());
         }
+        GameManager.inst.SaveJson();
     }
 
     IEnumerator IncreaseToileting() //시간 k동안 값이 N만큼 증가
@@ -280,6 +292,7 @@ public class DesireChangeManager : MonoBehaviour
         {
             saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] = 0;
         }
+        GameManager.inst.SaveJson();
     }
 
     ////////////////////////////////////

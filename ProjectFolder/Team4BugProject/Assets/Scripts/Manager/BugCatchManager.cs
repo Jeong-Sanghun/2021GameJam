@@ -18,9 +18,35 @@ public class BugCatchManager : MonoBehaviour
         gameManager = GameManager.inst;
         saveData = gameManager.saveData;
         appearedBugList = saveData.appearedBugList;
-
-
         bugWrapper = gameManager.bugWrapper;
+        for(int i = 0; i < appearedBugList.Count; i++)
+        {
+            BugIngameClass bug = appearedBugList[i];
+            BugClass bugClass = null;
+            for (int j = 0; j < bugWrapper.bugList.Count; j++)
+            {
+                if (bugWrapper.bugList[j].name == bug.name)
+                {
+                    bugClass = bugWrapper.bugList[j];
+                    break;
+                }
+            }
+            if (bugClass == null)
+            {
+                return;
+            }
+            float col = (float)bug.nowHp / bugClass.hp;
+            Color red = new Color(1, col, col);
+            if ((int)bug.name < 2)
+            {
+                bug.bugObject.GetComponent<Image>().color = red;
+            }
+            else
+            {
+                bug.bugObject.GetComponent<SpriteRenderer>().color = red;
+            }
+        }
+
     }
     public void SetEventTrigger(BugIngameClass bug)
     {
@@ -94,11 +120,12 @@ public class BugCatchManager : MonoBehaviour
         }
 
         bug.nowHp--;
-
+        
         if (bug.nowHp <= 0)
         {
             bug.bugObject.SetActive(false);
             appearedBugList.Remove(bug);
+
         }
         else
         {
@@ -113,5 +140,6 @@ public class BugCatchManager : MonoBehaviour
                 bug.bugObject.GetComponent<SpriteRenderer>().color = red;
             }
         }
+        GameManager.inst.SaveJson();
     }
 }

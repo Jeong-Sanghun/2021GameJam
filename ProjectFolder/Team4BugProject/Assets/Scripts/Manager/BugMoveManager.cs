@@ -28,7 +28,7 @@ public class BugMoveManager : MonoBehaviour
 
     IEnumerator MoveCoroutine(BugIngameClass bug)
     {
-
+        yield return new WaitForSeconds(Random.Range(0f, 1f));
         Vector3 randomDeltaPos;
         Vector3 originPos = bug.bugObject.transform.position;
         if ((int)bug.name < 2)
@@ -64,6 +64,7 @@ public class BugMoveManager : MonoBehaviour
                     originPos = rect.anchoredPosition;
                     randomDeltaPos = originPos + new Vector3(Random.Range(-100f, 100f), Random.Range(-100f, 100f), 0);
                     timer = 0;
+                    bug.position = originPos;
                     if(bug.name == BugName.Mosquito)
                     {
                         bug.sitted = true;
@@ -105,6 +106,7 @@ public class BugMoveManager : MonoBehaviour
                 {
                     randomDeltaPos = new Vector3(Random.Range(-5f, 5f), Random.Range(-5f, 5f), 0);
                     originPos = bug.bugObject.transform.position;
+                    bug.position = originPos;
                     timer = 0;
                 }
             }

@@ -14,10 +14,16 @@ public class BugIngameClass
     [System.NonSerialized]
     public bool sitted;
 
-    public void SetBugPrefab(GameObject prefab,GameObject parent)
+    public void SetWorldBugPrefab(GameObject prefab,GameObject parent)
     {
         bugObject = GameObject.Instantiate(prefab, parent.transform);
         bugObject.transform.localPosition = position;
+    }
+
+    public void SetCanvasBugPrefab(GameObject prefab, GameObject parent)
+    {
+        bugObject = GameObject.Instantiate(prefab, parent.transform);
+        bugObject.GetComponent<RectTransform>().anchoredPosition = position;
     }
 
     public BugIngameClass()
@@ -28,12 +34,21 @@ public class BugIngameClass
         sitted = false;
     }
 
-    public BugIngameClass(BugClass bug, GameObject prefab, GameObject parent,Vector3 pos)
+    public BugIngameClass(BugClass bug, GameObject prefab, GameObject parent, Vector3 pos)
     {
         name = bug.name;
         nowHp = bug.hp;
-        SetBugPrefab(prefab, parent);
         position = pos;
+        if ((int)bug.name < 2)
+        {
+            SetCanvasBugPrefab(prefab, parent);
+        }
+        else
+        {
+            SetWorldBugPrefab(prefab, parent);
+        }
+        
+
         sitted = false;
 
     }
