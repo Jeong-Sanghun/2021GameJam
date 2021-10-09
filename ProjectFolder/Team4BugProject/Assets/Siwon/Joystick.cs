@@ -33,7 +33,7 @@ public class Joystick : MonoBehaviour, IDragHandler, IPointerUpHandler, IPointer
         Vector2 radius = (outLine.sizeDelta ) / 2;
         //Debug.Log(eventData.position.x);
         Debug.Log((eventData.position - outLine.anchoredPosition) / (radius * canvas.scaleFactor));
-        input = new Vector2((eventData.position - outLine.anchoredPosition).x / (radius * canvas.scaleFactor).x - 6.4f, (eventData.position - outLine.anchoredPosition).y / (radius * canvas.scaleFactor).y - 3.8f);
+        input = new Vector2((eventData.position - outLine.anchoredPosition).x / (radius * canvas.scaleFactor).x - 5.1f, (eventData.position - outLine.anchoredPosition).y / (radius * canvas.scaleFactor).y - 2.8f);
         HandleInput(input.magnitude, input.normalized);
         handle.anchoredPosition = input * radius * handleRange;
     }
