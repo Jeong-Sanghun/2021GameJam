@@ -56,7 +56,7 @@ public class DesireChangeManager : MonoBehaviour
     IEnumerator cor;
     float N = 10; //상호작용 한 번당 증가할 값
     float M = 4f; //몇 초당 1씩 줄어드는지
-    float k = 2f; //부엌, 화장실 상호작용 걸리는 시간
+    float k = 7f; //부엌, 화장실 상호작용 걸리는 시간
     // float i = 1f; //창문 여닫는데 걸리는 시간
 
 
@@ -108,10 +108,10 @@ public class DesireChangeManager : MonoBehaviour
             windowGaugeText.text = "문 닫는중";
         }
         float timer = 0;
-        while (timer < 1)
+        while (timer < 1.5f)
         {
             timer += Time.deltaTime;
-            windowGaugeImage.fillAmount = timer;
+            windowGaugeImage.fillAmount = timer/1.5f;
             yield return null;
         }
         windowGaugeObject.SetActive(false);
@@ -172,10 +172,10 @@ public class DesireChangeManager : MonoBehaviour
             soundManager.CookPlay();
         }
         float timer = 0;
-        while (timer < 1)
+        while (timer < 7f)
         {
             timer += Time.deltaTime;
-            hungrinessGaugeImage.fillAmount = timer;
+            hungrinessGaugeImage.fillAmount = timer/7f;
             yield return null;
         }
        hungrinessGaugeObject.SetActive(false);
@@ -237,10 +237,10 @@ public class DesireChangeManager : MonoBehaviour
             toiletGaugeText.text = "똥닦는중";
         }
         float timer = 0;
-        while (timer < 1)
+        while (timer < 7f)
         {
             timer += Time.deltaTime;
-            toiletGaugeImage.fillAmount = timer;
+            toiletGaugeImage.fillAmount = timer/7f;
             yield return null;
         }
         toiletGaugeObject.SetActive(false);
@@ -294,10 +294,10 @@ public class DesireChangeManager : MonoBehaviour
     {
         recycleBinGaugeObject.SetActive(true);
         float timer = 0;
-        while (timer < 1)
+        while (timer < 7f)
         {
             timer += Time.deltaTime;
-            recycleBinGaugeImage.fillAmount = timer;
+            recycleBinGaugeImage.fillAmount = timer/7f;
             yield return null;
         }
         recycleBinGaugeObject.SetActive(false);
