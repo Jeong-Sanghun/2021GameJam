@@ -27,8 +27,8 @@ public class CodingProgress : MonoBehaviour
     public Text leftTimeText;
 
     float N = 10; //상호작용 한 번당 증가할 값
-    float M = 0.5f; //몇 초당 1씩 줄어드는지
-    float k = 2f; //부엌, 화장실 상호작용 걸리는 시간
+    float codingMultiplier = 0.7f; //코딩 속도 배수
+    float trashMultiplier = 1.5f; //쓰레기 증가 배수
     // float i = 1f; //창문 여닫는데 걸리는 시간
     private void Start()
     {
@@ -62,22 +62,22 @@ public class CodingProgress : MonoBehaviour
     {
         if(iscoding == true)
         {
-            codingTime += Time.deltaTime;
-            gameManager.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] += Time.deltaTime / k * (N + (int)k);
+            codeFillAmount += Time.deltaTime*codingMultiplier;
+            gameManager.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] += Time.deltaTime * trashMultiplier ;
             if(gameManager.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] >= 20) ////////// 스프라이트 이미지교체
             {
-                //RecycleBin_dirty로 sprite 교체
+                //RecycleBin_clean으로 sprite 교체
                 recycleBinRenderer.sprite = recycleBinDirtySprite;
             }
         }
-
+        /*
         if(codingTime >= 2.0f)
         {
             codeFillAmount += 5f;
             saveData.codingProgress = codeFillAmount;
             codingTime = 0.0f;
         }
-
+        */
         codeprogress.fillAmount = codeFillAmount / 100.0f;
 
         if(codeFillAmount >=100.0f)

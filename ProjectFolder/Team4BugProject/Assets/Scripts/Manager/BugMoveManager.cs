@@ -94,7 +94,7 @@ public class BugMoveManager : MonoBehaviour
                     {
                         bug.sitted = true;
                         bug.bugObject.GetComponent<Image>().sprite = sittedMosquito;
-                        yield return new WaitForSeconds(0.3f);
+                        yield return new WaitForSeconds(0.5f);
                         bug.bugObject.GetComponent<Image>().sprite = flyingMosquito;
                         bug.sitted = false;
                     }

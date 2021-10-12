@@ -7603,16 +7603,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dfa4ac4a24c169449aaa721ac52329d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickFalse: {fileID: 8300000, guid: 528dccd1c1a81c649a657b953abfcc73, type: 3}
-  clickTrue: {fileID: 8300000, guid: d7142a5a6a845fc4eafb6aa807da298a, type: 3}
-  mainBGM: {fileID: 8300000, guid: 33ef195639bff4d4f90ff13e1da4528c, type: 3}
-  alertBGM: {fileID: 8300000, guid: ca196499bd86d514dbf894d709309c01, type: 3}
-  mosquito: {fileID: 8300000, guid: b1a9811b716e31a409a7777a84ce4a45, type: 3}
-  siren: {fileID: 8300000, guid: a51cb969b8afe4b40a3b6b996fdc80df, type: 3}
-  dishes: {fileID: 8300000, guid: 88dd4cae6a9beec4ab88219722120146, type: 3}
-  recycleBin: {fileID: 8300000, guid: 5ceb26e5e1effd646a3638a870814e6a, type: 3}
-  cook: {fileID: 8300000, guid: d809127709b2b894a970680291683015, type: 3}
-  toilet: {fileID: 8300000, guid: 5ba47e94394c2ea4b932a4c2d78c9673, type: 3}
+  clickFalse: {fileID: 8300000, guid: cad2df70e32827f43a39140e3cb4d371, type: 3}
+  clickTrue: {fileID: 8300000, guid: 589ab60a6be72244bb490cdff03af337, type: 3}
+  mainBGM: {fileID: 8300000, guid: 9fd0ec4b726fdb24abaeef40746986c5, type: 3}
+  alertBGM: {fileID: 8300000, guid: 0ccd692acade282409a8fb3554bc5273, type: 3}
+  mosquito: {fileID: 8300000, guid: f4f73a5106dd02842bd3e4c747cc465f, type: 3}
+  siren: {fileID: 8300000, guid: 42996e83ee25c9f4c944930ddc116963, type: 3}
+  dishes: {fileID: 8300000, guid: 3cd7a784712e82c4a98f1b0b74140457, type: 3}
+  recycleBin: {fileID: 8300000, guid: 2d807f1c31dae2c4ca1990c5a85fbdab, type: 3}
+  cook: {fileID: 8300000, guid: 60067aeb3a37f4c4cb47f9a345c46851, type: 3}
+  toilet: {fileID: 8300000, guid: 32f160d0f626b0f4e9c4a9bae85ecab0, type: 3}
   clap:
   - {fileID: 8300000, guid: 03608962525f5c94bb0eaf2a5b8554ce, type: 3}
   - {fileID: 8300000, guid: 43bc548b0a33d054988884cbf5edf0b2, type: 3}
@@ -7623,7 +7623,7 @@ MonoBehaviour:
   closeWindow: {fileID: 8300000, guid: 29b8cb7bc3930454a9353ab95e89fa7b, type: 3}
   coding: {fileID: 8300000, guid: 4ba1fe54f32a8104785deb7560c5467c, type: 3}
   fly: {fileID: 8300000, guid: 57a08b3c60fb0484f966cceafaa406e5, type: 3}
-  toiletWash: {fileID: 8300000, guid: 240d4856d19351d43a9cfb12a9c023f4, type: 3}
+  toiletWash: {fileID: 8300000, guid: 6c6e0d3d701f60f408761b504176c2e5, type: 3}
   clickAudio: {fileID: 1904570184}
   clapAudio: {fileID: 2051339733}
   bgmAudio: {fileID: 944940003}
