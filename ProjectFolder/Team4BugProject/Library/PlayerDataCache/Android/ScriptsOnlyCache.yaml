@@ -35,8 +35,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -49,7 +47,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Outline
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SiwonScene.unity:
@@ -174,8 +171,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2998}
     - Class: 114
       Script: {instanceID: 3102}
-    - Class: 114
-      Script: {instanceID: 3368}
     - Class: 114
       Script: {instanceID: 3636}
     - Class: 114
@@ -831,4 +826,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/StartScene.unity
   - Assets/Scenes/SiwonScene.unity
-  playerPath: "G:/That Folder/1TerritoryMarking/Make/2021GameJam/ProjectFolder/\uBE4C\uB4DC\uBCF8/20211012_1631.apk"
+  playerPath: "G:/That Folder/1TerritoryMarking/Make/2021GameJam/ProjectFolder/\uBE4C\uB4DC\uBCF8/20211016_0125.apk"
