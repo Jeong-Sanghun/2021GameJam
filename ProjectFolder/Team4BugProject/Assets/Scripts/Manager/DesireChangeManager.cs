@@ -65,11 +65,11 @@ public class DesireChangeManager : MonoBehaviour
 
     /////
     IEnumerator cor;
-    float N = 50; //상호작용 한 번당 증가할 값
+    float N = 60; //상호작용 한 번당 증가할 값
     float M = 1.1f; //몇 초당 1씩 줄어드는지
     float k = 7f; //부엌, 화장실 상호작용 걸리는 시간
 
-    int cleanAmount = 50; //청소 시 감소하는 값
+    int cleanAmount = 60; //청소 시 감소하는 값
 
     // float i = 1f; //창문 여닫는데 걸리는 시간
 
@@ -283,7 +283,6 @@ public class DesireChangeManager : MonoBehaviour
         buttonManager.OnInteractionReturn();
         if (isCleaning) //청소 상호작용 시
         {
-                StartCoroutine(IncreaseHungriness());
             saveData.placeCleannessNumber[(int)PlaceName.RestRoom] -= cleanAmount;
             if (saveData.placeCleannessNumber[(int)PlaceName.RestRoom] <= 20) //스프라이트 이미지교체
             {

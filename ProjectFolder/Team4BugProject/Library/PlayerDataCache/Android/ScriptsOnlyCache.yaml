@@ -22,7 +22,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -826,4 +825,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/StartScene.unity
   - Assets/Scenes/SiwonScene.unity
-  playerPath: "G:/That Folder/1TerritoryMarking/Make/2021GameJam/ProjectFolder/\uBE4C\uB4DC\uBCF8/20211016_0125.apk"
+  playerPath: "G:/That Folder/1TerritoryMarking/Make/2021GameJam/ProjectFolder/\uBE4C\uB4DC\uBCF8/20211016_1527.apk"
