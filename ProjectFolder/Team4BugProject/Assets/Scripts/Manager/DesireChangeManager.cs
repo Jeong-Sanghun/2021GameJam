@@ -203,7 +203,7 @@ public class DesireChangeManager : MonoBehaviour
         if (isCleaning) //청소 상호작용 시
         {
             saveData.placeCleannessNumber[(int)PlaceName.Kitchen] -= cleanAmount; ////////
-            if (saveData.placeCleannessNumber[(int)PlaceName.Kitchen] <= 20) //스프라이트 이미지교체
+            if (saveData.placeCleannessNumber[(int)PlaceName.Kitchen] <= 30) //스프라이트 이미지교체
             {
                 //kitchen_clean으로 스프라이트 교체
                 PlaceSprList[(int)PlaceName.Kitchen].GetComponent<SpriteRenderer>().sprite = PlaceImgList[0];
@@ -228,7 +228,7 @@ public class DesireChangeManager : MonoBehaviour
         {
             saveData.desireNumber[(int)DesireName.Hungriness] += Time.deltaTime / k * (N + (int)k);
             saveData.placeCleannessNumber[(int)PlaceName.Kitchen] += Time.deltaTime / k * (N + (int)k);
-            if (saveData.placeCleannessNumber[(int)PlaceName.Kitchen] >= 20) //스프라이트 이미지교체
+            if (saveData.placeCleannessNumber[(int)PlaceName.Kitchen] >= 30) //스프라이트 이미지교체
             {
                 //kitchen_dirty로 스프라이트 교체
                 PlaceSprList[(int)PlaceName.Kitchen].GetComponent<SpriteRenderer>().sprite = PlaceImgList[1];
@@ -284,7 +284,7 @@ public class DesireChangeManager : MonoBehaviour
         if (isCleaning) //청소 상호작용 시
         {
             saveData.placeCleannessNumber[(int)PlaceName.RestRoom] -= cleanAmount;
-            if (saveData.placeCleannessNumber[(int)PlaceName.RestRoom] <= 20) //스프라이트 이미지교체
+            if (saveData.placeCleannessNumber[(int)PlaceName.RestRoom] <= 30) //스프라이트 이미지교체
             {
                 //restroom_clean으로 스프라이트 교체
                 PlaceSprList[(int)PlaceName.RestRoom].GetComponent<SpriteRenderer>().sprite = PlaceImgList[2];
@@ -309,7 +309,7 @@ public class DesireChangeManager : MonoBehaviour
         {
             saveData.desireNumber[(int)DesireName.Toileting] += Time.deltaTime / k * (N + (int)k);
             saveData.placeCleannessNumber[(int)PlaceName.RestRoom] += Time.deltaTime / k * (N + (int)k); ///
-            if (saveData.placeCleannessNumber[(int)PlaceName.RestRoom] >= 20) //스프라이트 이미지교체
+            if (saveData.placeCleannessNumber[(int)PlaceName.RestRoom] >= 30) //스프라이트 이미지교체
             {
                 //restroom_dirty로 스프라이트 교체
                 PlaceSprList[(int)PlaceName.RestRoom].GetComponent<SpriteRenderer>().sprite = PlaceImgList[3];
@@ -351,7 +351,7 @@ public class DesireChangeManager : MonoBehaviour
         recycleBinGaugeObject.SetActive(false);
         buttonManager.OnInteractionReturn();
         saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] -= cleanAmount; /////
-        if (saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] <= 20) //스프라이트 이미지교체
+        if (saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] <= 30) //스프라이트 이미지교체
         {
             //recyclebin_clean으로 스프라이트 교체
             PlaceSprList[(int)PlaceName.RecycleBin].GetComponent<SpriteRenderer>().sprite = PlaceImgList[4];
@@ -383,7 +383,7 @@ public class DesireChangeManager : MonoBehaviour
                 gameOverText.text = "화장실 가는 것을 참다가 참사가 일어났습니다..." ;
                 break;
             case GameOvered.Bug:
-                gameOverText.text = "벌레들에 둘러쌓여 쓰러졌습니다...";
+                gameOverText.text = "벌레들에 둘러싸여 쓰러졌습니다...";
                 break;
             case GameOvered.Time:
                 gameOverText.text = "밀려오는 졸음을 버티지 못하고 쓰러졌습니다...";
@@ -432,7 +432,7 @@ public class DesireChangeManager : MonoBehaviour
 
         //사운드
         if ((saveData.desireNumber[(int)DesireName.Air] <= 30) || (saveData.desireNumber[(int)DesireName.Hungriness] <= 30)
-            || (saveData.desireNumber[(int)DesireName.Toileting] <= 30) || saveData.appearedBugList.Count > 20 ||
+            || (saveData.desireNumber[(int)DesireName.Toileting] <= 30) || saveData.appearedBugList.Count > 40 ||
             saveData.leftTime < 120)
         {
             soundManager.BGMChanger(true);

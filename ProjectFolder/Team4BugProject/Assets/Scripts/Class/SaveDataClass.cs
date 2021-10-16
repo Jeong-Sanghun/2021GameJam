@@ -30,6 +30,6 @@ public class SaveDataClass
 
         isWindowOpen = false;
         appearedBugList = new List<BugIngameClass>();
-        leftTime = 300;
+        leftTime = 450;
     }
 }

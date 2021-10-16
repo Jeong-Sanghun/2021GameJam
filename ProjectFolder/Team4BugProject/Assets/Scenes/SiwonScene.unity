@@ -7089,7 +7089,7 @@ MonoBehaviour:
     - 0
     isWindowOpen: 0
     codingProgress: 0
-    leftTime: 300
+    leftTime: 450
 --- !u!4 &2078536103
 Transform:
   m_ObjectHideFlags: 0

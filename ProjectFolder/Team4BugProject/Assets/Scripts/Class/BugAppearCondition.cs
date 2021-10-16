@@ -15,7 +15,7 @@ public class BugAppearCondition
     {
         appearingBug = BugName.Fly;
         appearingPlace = PlaceName.RecycleBin;
-        cleannessBorder = 20;
+        cleannessBorder = 30;
     }
 
 }
