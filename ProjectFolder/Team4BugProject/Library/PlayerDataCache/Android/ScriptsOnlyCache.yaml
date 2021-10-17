@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ActiveManager
+    - AdManager
     - BugCatchManager
     - BugMoveManager
     - BugSpawnManager
@@ -18,6 +19,8 @@ ScriptsOnlyBuild:
     - StartGameManager
     - TimeManager
     - resolutionSet
+    GoogleMobileAds.Editor.dll:
+    - GoogleMobileAds.Editor.GoogleMobileAdsSettings
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -114,6 +117,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4648}
     - Class: 114
       Script: {instanceID: 4652}
+    - Class: 114
+      Script: {instanceID: 17672}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -175,6 +180,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3636}
     - Class: 114
       Script: {instanceID: 3956}
+    - Class: 114
+      Script: {instanceID: 16902}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -650,7 +657,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: a4e48c0e641f4f586ca6d5972235d3e5
+      Hash: 73eda24d64b5e23d1bcc9493cc1d7ace
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DesireChangeManager
@@ -822,8 +829,44 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: GoogleMobileAds.Unity.dll
+    namespaceName: 
+    className: ButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: GoogleMobileAds.Unity.dll
+    namespaceName: 
+    className: Countdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: GoogleMobileAds.Unity.dll
+    namespaceName: 
+    className: DummyAdBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: GoogleMobileAds.Common.dll
+    namespaceName: GoogleMobileAds.Common
+    className: MobileAdsEventExecutor
+  - hash:
+      serializedVersion: 2
+      Hash: bc8d0afeebc008570ffede5254e873af
+    assemblyName: GoogleMobileAds.Editor.dll
+    namespaceName: GoogleMobileAds.Editor
+    className: GoogleMobileAdsSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/StartScene.unity
   - Assets/Scenes/SiwonScene.unity
-  playerPath: "G:/That Folder/1TerritoryMarking/Make/2021GameJam/ProjectFolder/\uBE4C\uB4DC\uBCF8/20211016_1946.apk"
+  playerPath: "C:/GithubDesktop/2021GameJam/ProjectFolder/\uBE4C\uB4DC\uBCF8/211017.apk"

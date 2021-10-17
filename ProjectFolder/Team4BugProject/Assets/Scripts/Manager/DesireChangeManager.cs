@@ -15,6 +15,8 @@ public class DesireChangeManager : MonoBehaviour
     GameManager gameManager;
     [SerializeField]
     SoundManager soundManager;
+    [SerializeField]
+    AdManager adManager;
     SaveDataClass saveData;
     [SerializeField]
     ButtonManager buttonManager;
@@ -440,6 +442,7 @@ public class DesireChangeManager : MonoBehaviour
         soundManager.StopWholeSound();
         gameManager.saveData = new SaveDataClass();
         gameManager.SaveJson();
+        adManager.ShowAd();
     }
 
     void FixedUpdate()
