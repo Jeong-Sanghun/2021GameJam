@@ -249,6 +249,10 @@ public class DesireChangeManager : MonoBehaviour
         while (time < k)
         {
             saveData.desireNumber[(int)DesireName.Hungriness] += Time.deltaTime / k * (N + (int)k);
+            if (saveData.desireNumber[(int)DesireName.Hungriness] > 100)
+            {
+                saveData.desireNumber[(int)DesireName.Hungriness] = 100;
+            }
             saveData.placeCleannessNumber[(int)PlaceName.Kitchen] += Time.deltaTime / k * (N + (int)k);
             if (saveData.placeCleannessNumber[(int)PlaceName.Kitchen] >= 30) //스프라이트 이미지교체
             {
@@ -329,7 +333,12 @@ public class DesireChangeManager : MonoBehaviour
         float time = 0f;
         while (time < k)
         {
+
             saveData.desireNumber[(int)DesireName.Toileting] += Time.deltaTime / k * (N + (int)k);
+            if (saveData.desireNumber[(int)DesireName.Toileting] > 100)
+            {
+                saveData.desireNumber[(int)DesireName.Toileting] = 100;
+            }
             saveData.placeCleannessNumber[(int)PlaceName.RestRoom] += Time.deltaTime / k * (N + (int)k); ///
             if (saveData.placeCleannessNumber[(int)PlaceName.RestRoom] >= 30) //스프라이트 이미지교체
             {
