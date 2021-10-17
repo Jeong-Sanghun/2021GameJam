@@ -1,10 +1,38 @@
 {
     "desireNumber": [
-        100.0,
-        100.0,
-        100.0
+        40.0,
+        40.0,
+        40.0
     ],
-    "appearedBugList": [],
+    "appearedBugList": [
+        {
+            "name": 2,
+            "position": {
+                "x": -4.513494968414307,
+                "y": 1.6762198209762574,
+                "z": 0.0
+            },
+            "nowHp": 2
+        },
+        {
+            "name": 1,
+            "position": {
+                "x": 531.5755004882813,
+                "y": -303.8013916015625,
+                "z": 0.0
+            },
+            "nowHp": 5
+        },
+        {
+            "name": 1,
+            "position": {
+                "x": -427.7452392578125,
+                "y": -318.56146240234377,
+                "z": 0.0
+            },
+            "nowHp": 5
+        }
+    ],
     "placeCleannessNumber": [
         0.0,
         0.0,
@@ -13,5 +41,5 @@
     ],
     "isWindowOpen": false,
     "codingProgress": 0.0,
-    "leftTime": 300
+    "leftTime": 238
 }
