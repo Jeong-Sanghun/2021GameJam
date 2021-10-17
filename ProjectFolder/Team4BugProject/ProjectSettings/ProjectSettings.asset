@@ -239,7 +239,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/GithubDesktop/2021GameJam/keystore/user.keystore
+  AndroidKeystoreName: G:/That Folder/1TerritoryMarking/Make/2021GameJam/keystore/user.keystore
   AndroidKeyaliasName: 2021gamejam
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0

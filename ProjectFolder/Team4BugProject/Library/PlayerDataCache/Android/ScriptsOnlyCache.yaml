@@ -21,6 +21,7 @@ ScriptsOnlyBuild:
     - resolutionSet
     GoogleMobileAds.Editor.dll:
     - GoogleMobileAds.Editor.GoogleMobileAdsSettings
+    - GoogleMobileAds.Editor.GoogleMobileAdsSettingsEditor
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -74,51 +75,51 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1438}
+      Script: {instanceID: 1466}
     - Class: 114
-      Script: {instanceID: 1490}
+      Script: {instanceID: 1468}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 12816}
     - Class: 114
-      Script: {instanceID: 1660}
+      Script: {instanceID: 12898}
     - Class: 114
-      Script: {instanceID: 2086}
+      Script: {instanceID: 13324}
     - Class: 114
-      Script: {instanceID: 2232}
+      Script: {instanceID: 13472}
     - Class: 114
-      Script: {instanceID: 2460}
+      Script: {instanceID: 13700}
     - Class: 114
-      Script: {instanceID: 2578}
+      Script: {instanceID: 13818}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 13848}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 13984}
     - Class: 114
-      Script: {instanceID: 2780}
+      Script: {instanceID: 14024}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 14102}
     - Class: 114
-      Script: {instanceID: 2986}
+      Script: {instanceID: 14240}
     - Class: 114
-      Script: {instanceID: 2998}
+      Script: {instanceID: 14252}
     - Class: 114
-      Script: {instanceID: 3006}
+      Script: {instanceID: 14260}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 14356}
     - Class: 114
-      Script: {instanceID: 3322}
+      Script: {instanceID: 14582}
     - Class: 114
-      Script: {instanceID: 3636}
+      Script: {instanceID: 14898}
     - Class: 114
-      Script: {instanceID: 3822}
+      Script: {instanceID: 14906}
     - Class: 114
-      Script: {instanceID: 4396}
+      Script: {instanceID: 15086}
     - Class: 114
-      Script: {instanceID: 4648}
+      Script: {instanceID: 15660}
     - Class: 114
-      Script: {instanceID: 4652}
+      Script: {instanceID: 15912}
     - Class: 114
-      Script: {instanceID: 17672}
+      Script: {instanceID: 15916}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -159,29 +160,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1490}
+      Script: {instanceID: 1466}
     - Class: 114
-      Script: {instanceID: 1680}
+      Script: {instanceID: 12732}
     - Class: 114
-      Script: {instanceID: 2086}
+      Script: {instanceID: 12918}
     - Class: 114
-      Script: {instanceID: 2460}
+      Script: {instanceID: 13324}
     - Class: 114
-      Script: {instanceID: 2608}
+      Script: {instanceID: 13700}
     - Class: 114
-      Script: {instanceID: 2780}
+      Script: {instanceID: 13848}
     - Class: 114
-      Script: {instanceID: 2918}
+      Script: {instanceID: 14024}
     - Class: 114
-      Script: {instanceID: 2998}
+      Script: {instanceID: 14172}
     - Class: 114
-      Script: {instanceID: 3102}
+      Script: {instanceID: 14252}
     - Class: 114
-      Script: {instanceID: 3636}
+      Script: {instanceID: 14356}
     - Class: 114
-      Script: {instanceID: 3956}
+      Script: {instanceID: 14898}
     - Class: 114
-      Script: {instanceID: 16902}
+      Script: {instanceID: 15220}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -201,6 +202,12 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
       Hash: 134322c9293c1896357cce271b819ce4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -213,10 +220,10 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
+      Hash: bc8d0afeebc008570ffede5254e873af
+    assemblyName: GoogleMobileAds.Editor.dll
+    namespaceName: GoogleMobileAds.Editor
+    className: GoogleMobileAdsSettings
   - hash:
       serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
@@ -229,6 +236,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: GoogleMobileAds.Unity.dll
+    namespaceName: 
+    className: ButtonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: GoogleMobileAds.Unity.dll
+    namespaceName: 
+    className: Countdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: GoogleMobileAds.Unity.dll
+    namespaceName: 
+    className: DummyAdBehaviour
   - hash:
       serializedVersion: 2
       Hash: ca0eb2314c89799711a845526bd07411
@@ -472,6 +497,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: GoogleMobileAds.Common.dll
+    namespaceName: GoogleMobileAds.Common
+    className: MobileAdsEventExecutor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartGameManager
@@ -625,6 +656,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: resolutionSet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AdManager
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -829,44 +866,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: GoogleMobileAds.Unity.dll
-    namespaceName: 
-    className: ButtonBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: GoogleMobileAds.Unity.dll
-    namespaceName: 
-    className: Countdown
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: GoogleMobileAds.Unity.dll
-    namespaceName: 
-    className: DummyAdBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: GoogleMobileAds.Common.dll
-    namespaceName: GoogleMobileAds.Common
-    className: MobileAdsEventExecutor
-  - hash:
-      serializedVersion: 2
-      Hash: bc8d0afeebc008570ffede5254e873af
-    assemblyName: GoogleMobileAds.Editor.dll
-    namespaceName: GoogleMobileAds.Editor
-    className: GoogleMobileAdsSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AdManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/StartScene.unity
   - Assets/Scenes/SiwonScene.unity
-  playerPath: "C:/GithubDesktop/2021GameJam/ProjectFolder/\uBE4C\uB4DC\uBCF8/211017.apk"
+  playerPath: "G:/That Folder/1TerritoryMarking/Make/2021GameJam/ProjectFolder/\uBE4C\uB4DC\uBCF8/20211017_1746.apk"

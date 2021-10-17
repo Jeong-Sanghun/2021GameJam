@@ -75,14 +75,14 @@ static Il2CppMethodPointer s_methodPointers[19] =
 static const int32_t s_InvokerIndices[19] = 
 {
 	982,
-	1117,
-	1148,
+	1116,
+	1147,
 	982,
-	1148,
+	1147,
 	982,
 	982,
 	982,
-	1148,
+	1147,
 	642,
 	642,
 	642,
@@ -91,8 +91,8 @@ static const int32_t s_InvokerIndices[19] =
 	642,
 	642,
 	982,
-	1117,
-	1956,
+	1116,
+	1944,
 };
 extern const CustomAttributesCacheGenerator g_GoogleMobileAds_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_GoogleMobileAds_CodeGenModule;
