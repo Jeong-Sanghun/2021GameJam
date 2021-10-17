@@ -35,6 +35,11 @@ public class CodingProgress : MonoBehaviour
         saveData = gameManager.saveData;
         codeFillAmount = saveData.codingProgress;
         codeprogress.fillAmount = codeFillAmount / 100.0f;
+        if (gameManager.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] >= 20) ////////// 스프라이트 이미지교체
+        {
+            //RecycleBin_clean으로 sprite 교체
+            recycleBinRenderer.sprite = recycleBinDirtySprite;
+        }
     }
 
     public void StartCoding()
@@ -63,12 +68,14 @@ public class CodingProgress : MonoBehaviour
         if(iscoding == true)
         {
             codeFillAmount += Time.deltaTime*codingMultiplier;
+            gameManager.saveData.codingProgress = codeFillAmount;
             gameManager.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] += Time.deltaTime * trashMultiplier ;
             if(gameManager.saveData.placeCleannessNumber[(int)PlaceName.RecycleBin] >= 20) ////////// 스프라이트 이미지교체
             {
                 //RecycleBin_clean으로 sprite 교체
                 recycleBinRenderer.sprite = recycleBinDirtySprite;
             }
+            codeprogress.fillAmount = codeFillAmount / 100.0f;
         }
         /*
         if(codingTime >= 2.0f)
@@ -78,7 +85,7 @@ public class CodingProgress : MonoBehaviour
             codingTime = 0.0f;
         }
         */
-        codeprogress.fillAmount = codeFillAmount / 100.0f;
+        
 
         if(codeFillAmount >=100.0f)
         {

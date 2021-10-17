@@ -81,11 +81,31 @@ public class DesireChangeManager : MonoBehaviour
 
         if (saveData.isWindowOpen)
         {
+            PlaceSprList[(int)PlaceName.Window].GetComponent<SpriteRenderer>().sprite = PlaceImgList[7];
             cor = IncreaseAir();
         }
         else
         {
+            PlaceSprList[(int)PlaceName.Window].GetComponent<SpriteRenderer>().sprite = PlaceImgList[6];
             cor = DecreaseAir();
+        }
+        if (saveData.placeCleannessNumber[(int)PlaceName.Kitchen] >= 30) //스프라이트 이미지교체
+        {
+            //kitchen_dirty로 스프라이트 교체
+            PlaceSprList[(int)PlaceName.Kitchen].GetComponent<SpriteRenderer>().sprite = PlaceImgList[1];
+
+        }
+        if (saveData.placeCleannessNumber[(int)PlaceName.Kitchen] >= 30) //스프라이트 이미지교체
+        {
+            //kitchen_dirty로 스프라이트 교체
+            PlaceSprList[(int)PlaceName.Kitchen].GetComponent<SpriteRenderer>().sprite = PlaceImgList[1];
+
+        }
+        if (saveData.placeCleannessNumber[(int)PlaceName.RestRoom] >= 30) //스프라이트 이미지교체
+        {
+            //restroom_dirty로 스프라이트 교체
+            PlaceSprList[(int)PlaceName.RestRoom].GetComponent<SpriteRenderer>().sprite = PlaceImgList[3];
+
         }
 
         StartCoroutine(cor);
