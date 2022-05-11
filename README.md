@@ -1,6 +1,9 @@
 # 홍익대학교 ExP Make팀 2021 게임잼 디버그 더 버그
 Unity / 2D / Android / 캐주얼게임 / [스토어 링크](https://play.google.com/store/apps/details?id=com.ExPGameJam4Team.DebugTheBug)
 
+# 플레이 영상
+[플레이 영상](https://youtu.be/V3oqaXsJTPQ)
+
 # 팀구성 
 **기획** : 홍영표
  
